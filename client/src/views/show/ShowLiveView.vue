@@ -326,7 +326,7 @@ export default {
   },
   computed: {
     pageIter() {
-      return [...Array(this.currentMaxPage).keys()];
+      return [...Array(this.currentMaxPage).keys()].map((i) => i + 1);
     },
     isScriptFollowing() {
       if (this.loadedSessionData) {

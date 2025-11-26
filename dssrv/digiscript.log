@@ -1,0 +1,717 @@
+[I 251126 21:00:08 main:119] Listening on port: 8080
+[W 251126 21:00:08 main:121] Running in debug mode
+[I 251126 21:00:09 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.30ms
+[I 251126 21:00:09 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251126 21:00:09 web:2407] 304 GET / (172.18.0.1) 1.29ms
+[D 251126 21:00:09 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"693c6e55-5475-4f6c-8cc4-29adcda92cc6"}
+[I 251126 21:00:09 ws_controller:159] WebSocket closed from: 172.18.0.1
+[I 251126 21:00:09 web:2407] 200 GET /api/v1/settings (172.18.0.1) 0.72ms
+[E 251126 21:00:09 web:1934] Uncaught exception GET /api/v1/settings (172.18.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8080', method='GET', uri='/api/v1/settings', version='HTTP/1.1', remote_ip='172.18.0.1')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.13/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/server/controllers/api/settings.py", line 15, in get
+        await self.finish(settings_json)
+    tornado.iostream.StreamClosedError: Stream is closed
+[I 251126 21:00:09 web:2407] 304 GET /assets/index-4c5ec2a9.js (172.18.0.1) 5.32ms
+[I 251126 21:00:09 web:2407] 304 GET /assets/index-e89cc959.css (172.18.0.1) 1.13ms
+[I 251126 21:00:09 web:2407] 200 GET /api/v1/settings (172.18.0.1) 0.65ms
+[I 251126 21:00:09 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.20ms
+[I 251126 21:00:09 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251126 21:00:09 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 0.52ms
+[D 251126 21:00:09 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"693c6e55-5475-4f6c-8cc4-29adcda92cc6"}
+[I 251126 21:00:09 web:2407] 304 GET /api/v1/settings (172.18.0.1) 4.33ms
+[I 251126 21:00:09 web:2407] 304 GET /favicon.ico (172.18.0.1) 5.07ms
+[I 251126 21:00:09 web:2407] 200 GET /api/v1/settings/raw (172.18.0.1) 2.23ms
+[I 251126 21:00:09 web:2407] 304 GET /api/v1/settings (172.18.0.1) 0.47ms
+[I 251126 21:00:09 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 0.34ms
+[I 251126 21:00:09 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 0.69ms
+[I 251126 21:00:09 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 0.49ms
+[I 251126 21:00:09 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 0.33ms
+[I 251126 21:00:09 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 0.34ms
+[I 251126 21:00:09 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 0.56ms
+[I 251126 21:00:10 web:2407] 304 GET /api/v1/auth (172.18.0.1) 0.55ms
+[I 251126 21:00:42 settings:300] Saved settings to /server/conf/digiscript.json
+[I 251126 21:00:42 web:2407] 200 POST /api/v1/auth/create (172.18.0.1) 176.05ms
+[D 251126 21:00:42 base_controller:93] POST /api/v1/auth/create {'username': 'admin', 'password': 'admin123', 'confirmPassword': 'admin123', 'is_admin': True}
+[I 251126 21:00:42 web:2407] 200 GET /api/v1/settings/raw (172.18.0.1) 0.70ms
+[I 251126 21:00:42 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 0.46ms
+[I 251126 21:00:47 web:2407] 304 GET /assets/LoginView-117ef595.js (172.18.0.1) 1.02ms
+[I 251126 21:00:47 web:2407] 304 GET /assets/ConfigCast-e3b0c442.css (172.18.0.1) 1.09ms
+[I 251126 21:00:50 web:2407] 200 POST /api/v1/auth/login (172.18.0.1) 169.55ms
+[D 251126 21:00:50 base_controller:93] POST /api/v1/auth/login {'username': 'admin', 'password': 'admin123', 'session_id': '693c6e55-5475-4f6c-8cc4-29adcda92cc6'}
+[I 251126 21:00:50 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 1.81ms
+[I 251126 21:00:50 web:2407] 200 GET /api/v1/auth (172.18.0.1) 1.41ms
+[I 251126 21:00:50 web:2407] 200 GET /api/v1/rbac/user/roles (172.18.0.1) 2.55ms
+[I 251126 21:00:50 web:2407] 200 GET /api/v1/user/settings (172.18.0.1) 13.10ms
+[D 251126 21:00:50 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"AUTHENTICATE","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQyNzcyNTAsImlhdCI6MTc2NDE5MDg1MH0.Dl8gM2ZxEZB44r_ygXyyXlxtsHs6BC8gvNdVesk5V7U"}}
+[I 251126 21:00:54 web:2407] 200 GET /assets/ConfigView-82a91337.js (172.18.0.1) 0.95ms
+[I 251126 21:00:54 web:2407] 200 GET /api/v1/shows (172.18.0.1) 3.16ms
+[I 251126 21:00:54 web:2407] 200 GET /api/v1/ws/sessions (172.18.0.1) 3.36ms
+[I 251126 21:00:55 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.60ms
+[I 251126 21:00:56 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.45ms
+[I 251126 21:00:57 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.50ms
+[I 251126 21:00:58 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.84ms
+[I 251126 21:00:59 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.57ms
+[I 251126 21:01:00 web:2407] 200 GET /api/v1/ws/sessions (172.18.0.1) 3.55ms
+[I 251126 21:01:01 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.50ms
+[I 251126 21:01:02 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.54ms
+[I 251126 21:01:03 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 3.56ms
+[I 251126 21:01:04 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.54ms
+[I 251126 21:01:05 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.53ms
+[I 251126 21:01:06 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.50ms
+[I 251126 21:01:07 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.68ms
+[I 251126 21:01:08 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.43ms
+[I 251126 21:01:09 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.48ms
+[I 251126 21:01:10 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.44ms
+[I 251126 21:01:11 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.43ms
+[I 251126 21:01:12 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.50ms
+[I 251126 21:01:13 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 3.14ms
+[I 251126 21:01:14 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.46ms
+[I 251126 21:01:15 web:2407] 200 GET /api/v1/ws/sessions (172.18.0.1) 2.67ms
+[I 251126 21:01:16 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.50ms
+[I 251126 21:01:17 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.51ms
+[I 251126 21:01:18 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.47ms
+[I 251126 21:01:19 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.57ms
+[I 251126 21:01:20 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.46ms
+[D 251126 21:01:21 shows:26] New show data posted: {'name': 'Rapunzel', 'start': '2025-12-12', 'end': '2025-12-27'}
+[I 251126 21:01:21 settings:300] Saved settings to /server/conf/digiscript.json
+[I 251126 21:01:21 web:2407] 200 POST /api/v1/show?load=true (172.18.0.1) 19.96ms
+[D 251126 21:01:21 base_controller:93] POST /api/v1/show {'name': 'Rapunzel', 'start': '2025-12-12', 'end': '2025-12-27'}
+[I 251126 21:01:21 web:2407] 200 GET /api/v1/settings/raw (172.18.0.1) 2.30ms
+[I 251126 21:01:21 web:2407] 200 GET /api/v1/shows (172.18.0.1) 2.57ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.67ms
+[I 251126 21:01:21 web:2407] 200 GET /api/v1/show (172.18.0.1) 2.86ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/show (172.18.0.1) 3.22ms
+[I 251126 21:01:21 web:2407] 200 GET /api/v1/auth (172.18.0.1) 2.09ms
+[I 251126 21:01:21 web:2407] 200 GET /api/v1/rbac/user/roles (172.18.0.1) 56.98ms
+[I 251126 21:01:21 web:2407] 200 GET /config (172.18.0.1) 2.46ms
+[I 251126 21:01:21 ws_controller:159] WebSocket closed from: 172.18.0.1
+[I 251126 21:01:21 web:2407] 200 POST /api/v1/auth/refresh-token (172.18.0.1) 2.96ms
+[D 251126 21:01:21 base_controller:93] POST /api/v1/auth/refresh-token {}
+[I 251126 21:01:21 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.23ms
+[I 251126 21:01:21 ws_controller:72] WebSocket opened from: 172.18.0.1
+[D 251126 21:01:21 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_TOKEN","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQyNzcyODEsImlhdCI6MTc2NDE5MDg4MX0.IgAygjLr2Ldoir74i7EOqTywKk2cZpYmWDCQqB4JSG8"}}
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 14.38ms
+[D 251126 21:01:21 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"693c6e55-5475-4f6c-8cc4-29adcda92cc6"}
+[I 251126 21:01:21 web:2407] 200 GET /api/v1/settings (172.18.0.1) 2.21ms
+[I 251126 21:01:21 web:2407] 304 GET /favicon.ico (172.18.0.1) 3.66ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/settings (172.18.0.1) 2.13ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/settings (172.18.0.1) 2.43ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.94ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.70ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.22ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.86ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.42ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.98ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.32ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 2.20ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 3.76ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.76ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.28ms
+[I 251126 21:01:21 web:2407] 200 GET /api/v1/auth (172.18.0.1) 1.95ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.33ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/show (172.18.0.1) 3.10ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 53.48ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/auth (172.18.0.1) 1.69ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 2.32ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 51.28ms
+[I 251126 21:01:21 web:2407] 200 GET /api/v1/show/sessions (172.18.0.1) 3.06ms
+[I 251126 21:01:21 web:2407] 304 GET /api/v1/shows (172.18.0.1) 2.89ms
+[I 251126 21:01:21 web:2407] 200 GET /api/v1/auth/users (172.18.0.1) 5.28ms
+[I 251126 21:01:21 web:2407] 200 GET /api/v1/ws/sessions (172.18.0.1) 3.09ms
+[I 251126 21:01:22 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.72ms
+[I 251126 21:01:23 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.69ms
+[I 251126 21:01:24 web:2407] 304 GET /api/v1/ws/sessions (172.18.0.1) 2.71ms
+[I 251126 21:01:25 web:2407] 200 GET /assets/ShowConfigView-fcb631f3.css (172.18.0.1) 1.00ms
+[I 251126 21:01:25 web:2407] 200 GET /assets/ConfigShow-d3dbb798.js (172.18.0.1) 0.67ms
+[I 251126 21:01:25 web:2407] 200 GET /assets/ShowConfigView-ed9c5ede.js (172.18.0.1) 0.98ms
+[I 251126 21:01:25 web:2407] 200 GET /assets/ConfigShow-351cb8b7.css (172.18.0.1) 0.66ms
+[I 251126 21:01:25 web:2407] 304 GET /api/v1/show (172.18.0.1) 3.52ms
+[I 251126 21:01:25 web:2407] 200 GET /api/v1/show/act (172.18.0.1) 3.92ms
+[I 251126 21:01:26 web:2407] 200 GET /assets/ConfigCast-2356ab1d.js (172.18.0.1) 0.96ms
+[I 251126 21:01:26 web:2407] 200 GET /api/v1/show/cast (172.18.0.1) 4.01ms
+[I 251126 21:01:26 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 2.84ms
+[I 251126 21:01:26 web:2407] 200 GET /api/v1/show/scene (172.18.0.1) 3.26ms
+[I 251126 21:01:26 web:2407] 200 GET /api/v1/show/cast/stats (172.18.0.1) 4.35ms
+[I 251126 21:01:30 web:2407] 200 POST /api/v1/show/cast (172.18.0.1) 16.38ms
+[D 251126 21:01:30 base_controller:93] POST /api/v1/show/cast {'firstName': 'test', 'lastName': 'test'}
+[I 251126 21:01:30 web:2407] 200 GET /api/v1/show/cast (172.18.0.1) 3.80ms
+[I 251126 21:01:30 web:2407] 304 GET /api/v1/show/cast (172.18.0.1) 3.04ms
+[I 251126 21:01:31 web:2407] 200 GET /assets/ConfigCharacters-d68cc540.js (172.18.0.1) 0.68ms
+[I 251126 21:01:31 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 3.53ms
+[I 251126 21:01:31 web:2407] 200 GET /api/v1/show/character (172.18.0.1) 6.38ms
+[I 251126 21:01:31 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 2.76ms
+[I 251126 21:01:31 web:2407] 304 GET /api/v1/show/cast (172.18.0.1) 3.80ms
+[I 251126 21:01:31 web:2407] 200 GET /api/v1/show/character/stats (172.18.0.1) 2.73ms
+[I 251126 21:01:36 web:2407] 200 POST /api/v1/show/character (172.18.0.1) 14.38ms
+[D 251126 21:01:36 base_controller:93] POST /api/v1/show/character {'name': 'test', 'description': 'test', 'played_by': 1}
+[I 251126 21:01:36 web:2407] 200 GET /api/v1/show/character (172.18.0.1) 4.37ms
+[I 251126 21:01:36 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.19ms
+[I 251126 21:01:38 web:2407] 200 GET /assets/ConfigCharacterGroups-15877c33.js (172.18.0.1) 0.93ms
+[I 251126 21:01:38 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 4.36ms
+[I 251126 21:01:38 web:2407] 200 GET /api/v1/show/character/group (172.18.0.1) 3.35ms
+[I 251126 21:01:38 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.33ms
+[I 251126 21:01:39 web:2407] 200 GET /assets/ConfigActs-17d4f833.js (172.18.0.1) 0.92ms
+[I 251126 21:01:39 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 3.37ms
+[I 251126 21:01:42 web:2407] 200 POST /api/v1/show/act (172.18.0.1) 14.65ms
+[D 251126 21:01:42 base_controller:93] POST /api/v1/show/act {'name': '1', 'interval_after': True, 'previous_act_id': None}
+[I 251126 21:01:42 web:2407] 200 GET /api/v1/show/act (172.18.0.1) 4.64ms
+[I 251126 21:01:42 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 3.28ms
+[I 251126 21:01:47 web:2407] 200 POST /api/v1/show/act (172.18.0.1) 13.77ms
+[D 251126 21:01:47 base_controller:93] POST /api/v1/show/act {'name': '2', 'interval_after': False, 'previous_act_id': 1}
+[I 251126 21:01:47 web:2407] 200 GET /api/v1/show/act (172.18.0.1) 4.16ms
+[I 251126 21:01:47 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 3.77ms
+[I 251126 21:01:49 web:2407] 200 GET /assets/ConfigScenes-a0e86efe.js (172.18.0.1) 0.99ms
+[I 251126 21:01:50 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 3.22ms
+[I 251126 21:01:50 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 4.58ms
+[I 251126 21:01:56 web:2407] 200 POST /api/v1/show/scene (172.18.0.1) 14.83ms
+[D 251126 21:01:56 base_controller:93] POST /api/v1/show/scene {'name': 'Scene 1', 'act_id': 1, 'previous_scene_id': None}
+[I 251126 21:01:56 web:2407] 200 GET /api/v1/show/scene (172.18.0.1) 4.58ms
+[I 251126 21:01:56 web:2407] 200 GET /api/v1/show/act (172.18.0.1) 3.97ms
+[I 251126 21:01:56 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 4.36ms
+[I 251126 21:02:03 web:2407] 200 POST /api/v1/show/scene (172.18.0.1) 13.06ms
+[D 251126 21:02:03 base_controller:93] POST /api/v1/show/scene {'name': 'scene 1', 'act_id': 2, 'previous_scene_id': None}
+[I 251126 21:02:03 web:2407] 200 GET /api/v1/show/scene (172.18.0.1) 4.22ms
+[I 251126 21:02:03 web:2407] 200 GET /api/v1/show/act (172.18.0.1) 3.89ms
+[I 251126 21:02:03 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 3.73ms
+[I 251126 21:02:05 web:2407] 200 GET /assets/ConfigScript-1ccb7ce2.js (172.18.0.1) 1.09ms
+[I 251126 21:02:05 web:2407] 200 GET /assets/diff-7b6faab2.js (172.18.0.1) 1.61ms
+[I 251126 21:02:05 web:2407] 200 GET /assets/ConfigScript-0e7a375e.css (172.18.0.1) 2.23ms
+[I 251126 21:02:05 web:2407] 200 GET /api/v1/show/script/config (172.18.0.1) 3.30ms
+[I 251126 21:02:05 web:2407] 200 GET /api/v1/auth (172.18.0.1) 1.92ms
+[I 251126 21:02:05 web:2407] 200 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 3.56ms
+[I 251126 21:02:05 web:2407] 200 GET /api/v1/show/script/revisions (172.18.0.1) 3.59ms
+[I 251126 21:02:05 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 2.94ms
+[I 251126 21:02:05 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 3.20ms
+[I 251126 21:02:05 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 4.16ms
+[I 251126 21:02:05 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 4.31ms
+[I 251126 21:02:05 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.04ms
+[I 251126 21:02:05 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.56ms
+[I 251126 21:02:05 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 4.03ms
+[I 251126 21:02:05 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.66ms
+[I 251126 21:02:05 web:2407] 200 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 2.78ms
+[I 251126 21:02:05 web:2407] 200 GET /api/v1/show/script/cuts (172.18.0.1) 3.42ms
+[I 251126 21:02:05 web:2407] 200 GET /api/v1/show/script/max_page (172.18.0.1) 4.09ms
+[I 251126 21:02:05 web:2407] 200 GET /api/v1/show/script?page=1 (172.18.0.1) 3.54ms
+[I 251126 21:02:05 web:2407] 200 GET /api/v1/show/script?page=2 (172.18.0.1) 3.27ms
+[D 251126 21:02:10 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REQUEST_SCRIPT_EDIT","DATA":{}}
+[I 251126 21:02:10 web:2407] 200 GET /api/v1/show/script/config (172.18.0.1) 2.42ms
+[I 251126 21:02:30 web:2407] 200 POST /api/v1/show/script?page=1 (172.18.0.1) 61.94ms
+[D 251126 21:02:30 base_controller:93] POST /api/v1/show/script [{'id': None, 'act_id': 1, 'scene_id': 1, 'page': 1, 'stage_direction': False, 'line_parts': [{'id': None, 'line_id': None, 'part_index': 0, 'character_id': 1, 'character_group_id': None, 'line_text': 'testsetestset'}], 'stage_direction_style_id': None}, {'id': None, 'act_id': 1, 'scene_id': 1, 'page': 1, 'stage_direction': False, 'line_parts': [{'id': None, 'line_id': None, 'part_index': 0, 'character_id': 1, 'character_group_id': None, 'line_text': 'asdfasdfasdf'}], 'stage_direction_style_id': None}, {'id': None, 'act_id': 1, 'scene_id': 1, 'page': 1, 'stage_direction': True, 'line_parts': [{'id': None, 'line_id': None, 'part_index': 0, 'character_id': None, 'character_group_id': None, 'line_text': 'asdfsadfads'}], 'stage_direction_style_id': None}]
+[I 251126 21:02:31 web:2407] 200 GET /api/v1/show/script?page=1 (172.18.0.1) 4.95ms
+[I 251126 21:02:31 web:2407] 200 GET /api/v1/show/script/max_page (172.18.0.1) 3.67ms
+[D 251126 21:02:33 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"STOP_SCRIPT_EDIT","DATA":{}}
+[I 251126 21:02:33 web:2407] 200 GET /api/v1/show/script/config (172.18.0.1) 2.52ms
+[I 251126 21:02:34 web:2407] 200 GET /assets/ConfigCues-852fee17.js (172.18.0.1) 1.03ms
+[I 251126 21:02:34 web:2407] 200 GET /assets/ConfigCues-01dd2393.css (172.18.0.1) 0.87ms
+[I 251126 21:02:34 web:2407] 200 GET /assets/index-8999f251.js (172.18.0.1) 1.37ms
+[I 251126 21:02:34 web:2407] 200 GET /api/v1/auth (172.18.0.1) 2.40ms
+[I 251126 21:02:34 web:2407] 200 GET /api/v1/show/act (172.18.0.1) 5.25ms
+[I 251126 21:02:34 web:2407] 200 GET /api/v1/show/cues/types (172.18.0.1) 3.13ms
+[I 251126 21:02:34 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 3.03ms
+[I 251126 21:02:34 web:2407] 200 GET /api/v1/show/scene (172.18.0.1) 4.34ms
+[I 251126 21:02:34 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 4.54ms
+[I 251126 21:02:34 web:2407] 200 GET /api/v1/show/cues/stats (172.18.0.1) 3.17ms
+[I 251126 21:02:34 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 4.00ms
+[I 251126 21:02:34 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.45ms
+[I 251126 21:02:34 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.88ms
+[I 251126 21:02:34 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.46ms
+[I 251126 21:02:34 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 2.37ms
+[I 251126 21:02:34 web:2407] 200 GET /api/v1/show/cues (172.18.0.1) 4.31ms
+[I 251126 21:02:34 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 2.98ms
+[I 251126 21:02:34 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 3.01ms
+[I 251126 21:02:34 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 2.20ms
+[I 251126 21:02:34 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 3.43ms
+[I 251126 21:02:34 web:2407] 304 GET /api/v1/show/script?page=1 (172.18.0.1) 4.63ms
+[I 251126 21:02:34 web:2407] 304 GET /api/v1/show/script?page=2 (172.18.0.1) 3.30ms
+[I 251126 21:02:40 web:2407] 200 POST /api/v1/show/cues/types (172.18.0.1) 13.96ms
+[D 251126 21:02:40 base_controller:93] POST /api/v1/show/cues/types {'prefix': 'LX', 'description': '', 'colour': '#bb00ff'}
+[I 251126 21:02:40 web:2407] 200 GET /api/v1/show/cues/types (172.18.0.1) 2.57ms
+[I 251126 21:02:40 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 2.94ms
+[I 251126 21:02:44 web:2407] 200 POST /api/v1/show/cues/types (172.18.0.1) 13.08ms
+[D 251126 21:02:44 base_controller:93] POST /api/v1/show/cues/types {'prefix': 'SX', 'description': '', 'colour': '#ff0000'}
+[I 251126 21:02:44 web:2407] 200 GET /api/v1/show/cues/types (172.18.0.1) 3.29ms
+[I 251126 21:02:44 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 2.54ms
+[I 251126 21:02:50 web:2407] 200 POST /api/v1/show/cues (172.18.0.1) 16.58ms
+[D 251126 21:02:50 base_controller:93] POST /api/v1/show/cues {'cueType': 1, 'ident': 'test', 'lineId': 1}
+[I 251126 21:02:50 web:2407] 200 GET /api/v1/show/cues (172.18.0.1) 3.87ms
+[I 251126 21:02:50 web:2407] 304 GET /api/v1/show/cues (172.18.0.1) 2.90ms
+[I 251126 21:02:54 web:2407] 200 POST /api/v1/show/cues (172.18.0.1) 13.47ms
+[D 251126 21:02:54 base_controller:93] POST /api/v1/show/cues {'cueType': 2, 'ident': 'test222', 'lineId': 2}
+[I 251126 21:02:54 web:2407] 200 GET /api/v1/show/cues (172.18.0.1) 3.45ms
+[I 251126 21:02:54 web:2407] 304 GET /api/v1/show/cues (172.18.0.1) 4.81ms
+[I 251126 21:02:58 web:2407] 200 POST /api/v1/show/sessions/start (172.18.0.1) 13.76ms
+[D 251126 21:02:58 base_controller:93] POST /api/v1/show/sessions/start {'session_id': '693c6e55-5475-4f6c-8cc4-29adcda92cc6'}
+[I 251126 21:02:58 web:2407] 200 GET /api/v1/show/sessions (172.18.0.1) 3.30ms
+[I 251126 21:02:58 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 3.22ms
+[I 251126 21:02:58 web:2407] 200 GET /assets/ShowLiveView-528bb7e0.js (172.18.0.1) 0.79ms
+[I 251126 21:02:58 web:2407] 200 GET /assets/ShowLiveView-41d74c2f.css (172.18.0.1) 0.72ms
+[I 251126 21:02:58 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 38.99ms
+[I 251126 21:02:58 web:2407] 200 GET /api/v1/auth (172.18.0.1) 2.35ms
+[I 251126 21:02:58 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 2.69ms
+[I 251126 21:02:58 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 3.96ms
+[I 251126 21:02:58 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 4.25ms
+[I 251126 21:02:58 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.15ms
+[I 251126 21:02:58 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.46ms
+[I 251126 21:02:58 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.35ms
+[I 251126 21:02:58 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 2.36ms
+[I 251126 21:02:58 web:2407] 304 GET /api/v1/show/cues (172.18.0.1) 2.99ms
+[I 251126 21:02:58 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 2.75ms
+[I 251126 21:02:58 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.76ms
+[I 251126 21:02:58 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 2.89ms
+[I 251126 21:02:58 web:2407] 200 GET /api/v1/show/script/compiled (172.18.0.1) 3.94ms
+[I 251126 21:03:10 web:2407] 200 POST /api/v1/show/sessions/stop (172.18.0.1) 13.56ms
+[I 251126 21:03:10 web:2407] 200 GET /api/v1/show/sessions (172.18.0.1) 3.44ms
+[I 251126 21:03:12 web:2407] 200 GET /api/v1/auth/users (172.18.0.1) 3.10ms
+[I 251126 21:03:12 web:2407] 200 GET /api/v1/shows (172.18.0.1) 5.49ms
+[I 251126 21:03:12 web:2407] 200 GET /api/v1/ws/sessions (172.18.0.1) 2.99ms
+[I 251126 21:03:12 web:2407] 200 GET /api/v1/show (172.18.0.1) 3.18ms
+[I 251126 21:03:12 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 4.77ms
+[I 251126 21:03:14 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 2.95ms
+[I 251126 21:03:14 web:2407] 200 GET /api/v1/auth (172.18.0.1) 1.75ms
+[I 251126 21:03:14 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.73ms
+[I 251126 21:03:14 web:2407] 200 GET /api/v1/show/script/revisions (172.18.0.1) 3.26ms
+[I 251126 21:03:14 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 2.92ms
+[I 251126 21:03:14 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 2.77ms
+[I 251126 21:03:14 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 4.41ms
+[I 251126 21:03:14 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 3.76ms
+[I 251126 21:03:14 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.80ms
+[I 251126 21:03:14 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.47ms
+[I 251126 21:03:14 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.46ms
+[I 251126 21:03:14 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.63ms
+[I 251126 21:03:14 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 2.55ms
+[I 251126 21:03:14 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 2.88ms
+[I 251126 21:03:14 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 3.16ms
+[I 251126 21:03:14 web:2407] 304 GET /api/v1/show/script?page=1 (172.18.0.1) 4.49ms
+[I 251126 21:03:14 web:2407] 304 GET /api/v1/show/script?page=2 (172.18.0.1) 4.35ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/auth (172.18.0.1) 2.35ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 5.28ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 3.25ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 3.58ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 4.24ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 4.36ms
+[I 251126 21:03:21 web:2407] 200 GET /api/v1/show/cues/stats (172.18.0.1) 3.72ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 3.92ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.47ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.83ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.23ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 2.26ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/show/cues (172.18.0.1) 3.79ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 2.84ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 3.48ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 2.80ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 4.39ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/show/script?page=1 (172.18.0.1) 4.76ms
+[I 251126 21:03:21 web:2407] 304 GET /api/v1/show/script?page=2 (172.18.0.1) 4.27ms
+[I 251126 21:03:22 web:2407] 200 GET /assets/ConfigMics-d8499699.js (172.18.0.1) 1.11ms
+[I 251126 21:03:22 web:2407] 200 GET /assets/ConfigMics-d3c4904a.css (172.18.0.1) 1.52ms
+[I 251126 21:03:22 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 4.57ms
+[I 251126 21:03:22 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 4.22ms
+[I 251126 21:03:22 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.43ms
+[I 251126 21:03:22 web:2407] 200 GET /api/v1/show/microphones (172.18.0.1) 3.54ms
+[I 251126 21:03:22 web:2407] 200 GET /api/v1/show/microphones/allocations (172.18.0.1) 2.90ms
+[I 251126 21:03:22 web:2407] 304 GET /api/v1/show/microphones/allocations (172.18.0.1) 3.13ms
+[I 251126 21:03:23 web:2407] 200 GET /assets/ConfigSessions-b5481319.js (172.18.0.1) 0.95ms
+[I 251126 21:03:23 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 3.64ms
+[I 251126 21:03:24 web:2407] 200 POST /api/v1/show/sessions/start (172.18.0.1) 13.85ms
+[D 251126 21:03:24 base_controller:93] POST /api/v1/show/sessions/start {'session_id': '693c6e55-5475-4f6c-8cc4-29adcda92cc6'}
+[I 251126 21:03:24 web:2407] 200 GET /api/v1/show/sessions (172.18.0.1) 2.92ms
+[I 251126 21:03:24 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 3.67ms
+[I 251126 21:03:24 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 4.02ms
+[I 251126 21:03:24 web:2407] 304 GET /api/v1/auth (172.18.0.1) 2.26ms
+[I 251126 21:03:24 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 2.47ms
+[I 251126 21:03:24 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 5.02ms
+[I 251126 21:03:24 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 3.77ms
+[I 251126 21:03:24 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.29ms
+[I 251126 21:03:24 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.39ms
+[I 251126 21:03:24 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.01ms
+[I 251126 21:03:24 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 2.22ms
+[I 251126 21:03:24 web:2407] 304 GET /api/v1/show/cues (172.18.0.1) 3.62ms
+[I 251126 21:03:24 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 2.62ms
+[I 251126 21:03:24 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.51ms
+[I 251126 21:03:24 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 2.80ms
+[I 251126 21:03:24 web:2407] 304 GET /api/v1/show/script/compiled (172.18.0.1) 3.47ms
+[I 251126 21:03:30 web:2407] 304 GET /assets/index-e89cc959.css (172.18.0.1) 1.12ms
+[I 251126 21:03:30 web:2407] 304 GET /assets/ShowConfigView-fcb631f3.css (172.18.0.1) 0.36ms
+[I 251126 21:03:30 web:2407] 304 GET /assets/ConfigShow-351cb8b7.css (172.18.0.1) 0.47ms
+[I 251126 21:03:30 web:2407] 304 GET /assets/ConfigCast-e3b0c442.css (172.18.0.1) 0.62ms
+[I 251126 21:03:30 web:2407] 200 GET /.well-known/appspecific/com.chrome.devtools.json (172.18.0.1) 1.61ms
+[I 251126 21:09:23 main:119] Listening on port: 8080
+[W 251126 21:09:23 main:121] Running in debug mode
+[I 251126 21:09:23 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.34ms
+[I 251126 21:09:23 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251126 21:09:23 web:2407] 200 GET /live (172.18.0.1) 1.83ms
+[D 251126 21:09:23 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"693c6e55-5475-4f6c-8cc4-29adcda92cc6"}
+[I 251126 21:09:24 ws_controller:159] WebSocket closed from: 172.18.0.1
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/settings (172.18.0.1) 26.05ms
+[I 251126 21:09:24 web:2407] 200 GET /.well-known/appspecific/com.chrome.devtools.json (172.18.0.1) 0.95ms
+[I 251126 21:09:24 web:2407] 200 GET /assets/index-c3355d61.js (172.18.0.1) 5.47ms
+[I 251126 21:09:24 web:2407] 304 GET /assets/index-e89cc959.css (172.18.0.1) 0.63ms
+[I 251126 21:09:24 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.29ms
+[I 251126 21:09:24 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251126 21:09:24 web:2407] 200 POST /api/v1/auth/refresh-token (172.18.0.1) 3.13ms
+[D 251126 21:09:24 base_controller:93] POST /api/v1/auth/refresh-token {}
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 4.82ms
+[D 251126 21:09:24 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"693c6e55-5475-4f6c-8cc4-29adcda92cc6"}
+[D 251126 21:09:24 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_TOKEN","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQyNzc3NjQsImlhdCI6MTc2NDE5MTM2NH0.PdXETcZ-IpeoXPQSpl-45iGjAweXsnPdmlfvLzQAtic"}}
+[I 251126 21:09:24 web:2407] 200 GET /api/v1/settings (172.18.0.1) 2.27ms
+[I 251126 21:09:24 web:2407] 304 GET /favicon.ico (172.18.0.1) 3.17ms
+[I 251126 21:09:24 web:2407] 200 GET /api/v1/show/sessions (172.18.0.1) 3.21ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 2.19ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/settings (172.18.0.1) 1.81ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.73ms
+[I 251126 21:09:24 web:2407] 200 GET /api/v1/show (172.18.0.1) 2.17ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.75ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/settings (172.18.0.1) 1.66ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.63ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.32ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.96ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.42ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.66ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.17ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show (172.18.0.1) 3.02ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 1.82ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.62ms
+[I 251126 21:09:24 web:2407] 200 GET /api/v1/auth (172.18.0.1) 1.79ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/auth (172.18.0.1) 1.75ms
+[I 251126 21:09:24 web:2407] 200 GET /api/v1/rbac/user/roles (172.18.0.1) 54.86ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 50.25ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 2.75ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.55ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.58ms
+[I 251126 21:09:24 web:2407] 200 GET /assets/ShowLiveView-c3ae1e1b.js (172.18.0.1) 0.52ms
+[I 251126 21:09:24 web:2407] 200 GET /assets/ShowLiveView-99af2a36.css (172.18.0.1) 0.34ms
+[I 251126 21:09:24 web:2407] 304 GET /assets/index-8999f251.js (172.18.0.1) 0.52ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 3.40ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 3.56ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/auth (172.18.0.1) 2.15ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 3.32ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 5.93ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 7.00ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 5.40ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.98ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.63ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 2.65ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show/cues (172.18.0.1) 4.66ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 3.26ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 4.00ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 4.09ms
+[I 251126 21:09:24 web:2407] 304 GET /api/v1/show/script/compiled (172.18.0.1) 4.37ms
+[D 251126 21:09:24 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":null,"current_line":"page_1_line_0"}}
+[I 251126 21:09:45 web:2407] 200 POST /api/v1/show/sessions/stop (172.18.0.1) 13.28ms
+[I 251126 21:09:45 web:2407] 200 GET /api/v1/show/sessions (172.18.0.1) 2.76ms
+[I 251126 21:09:46 web:2407] 200 GET /assets/ShowConfigView-bcba6beb.js (172.18.0.1) 0.82ms
+[I 251126 21:09:46 web:2407] 200 GET /assets/ConfigShow-305700c1.js (172.18.0.1) 0.88ms
+[I 251126 21:09:46 web:2407] 304 GET /assets/ShowConfigView-fcb631f3.css (172.18.0.1) 0.99ms
+[I 251126 21:09:46 web:2407] 304 GET /assets/ConfigShow-351cb8b7.css (172.18.0.1) 0.26ms
+[I 251126 21:09:46 web:2407] 200 GET /api/v1/show (172.18.0.1) 2.89ms
+[I 251126 21:09:46 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 5.10ms
+[I 251126 21:09:49 web:2407] 200 GET /assets/ConfigCues-4c7935f8.js (172.18.0.1) 0.49ms
+[I 251126 21:09:49 web:2407] 304 GET /assets/ConfigCues-01dd2393.css (172.18.0.1) 0.23ms
+[I 251126 21:09:49 web:2407] 200 GET /api/v1/auth (172.18.0.1) 2.22ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 3.77ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 7.98ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 3.00ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 4.76ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 4.79ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/cues/stats (172.18.0.1) 4.35ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 3.87ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.48ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.76ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.12ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 2.76ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/cues (172.18.0.1) 3.46ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 3.06ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.73ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 2.80ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 3.05ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/script?page=1 (172.18.0.1) 6.51ms
+[I 251126 21:09:49 web:2407] 304 GET /api/v1/show/script?page=2 (172.18.0.1) 3.97ms
+[I 251126 21:09:58 web:2407] 200 GET /assets/ConfigScript-f6ea3fcc.js (172.18.0.1) 0.61ms
+[I 251126 21:09:58 web:2407] 200 GET /assets/diff-c39e4a67.js (172.18.0.1) 0.76ms
+[I 251126 21:09:58 web:2407] 304 GET /assets/ConfigScript-0e7a375e.css (172.18.0.1) 0.31ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 2.78ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/auth (172.18.0.1) 1.88ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 3.23ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/show/script/revisions (172.18.0.1) 3.27ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 3.70ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 2.15ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 4.19ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 3.77ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.01ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.80ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 3.05ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 8.51ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 2.15ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 2.88ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 2.93ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/show/script?page=1 (172.18.0.1) 4.59ms
+[I 251126 21:09:58 web:2407] 304 GET /api/v1/show/script?page=2 (172.18.0.1) 4.27ms
+[D 251126 21:10:01 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REQUEST_SCRIPT_EDIT","DATA":{}}
+[I 251126 21:10:01 web:2407] 200 GET /api/v1/show/script/config (172.18.0.1) 2.39ms
+[E 251126 21:10:14 web:1934] Uncaught exception PATCH /api/v1/show/script?page=1 (172.18.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8080', method='PATCH', uri='/api/v1/show/script?page=1', version='HTTP/1.1', remote_ip='172.18.0.1')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+        self.dialect.do_execute(
+        ~~~~~~~~~~~~~~~~~~~~~~~^
+            cursor, statement, parameters, context
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+        cursor.execute(statement, parameters)
+        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+    sqlite3.IntegrityError: FOREIGN KEY constraint failed
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.13/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/server/controllers/api/show/script/script.py", line 633, in patch
+        session.flush()
+        ~~~~~~~~~~~~~^^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 3449, in flush
+        self._flush(objects)
+        ~~~~~~~~~~~^^^^^^^^^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 3588, in _flush
+        with util.safe_reraise():
+             ~~~~~~~~~~~~~~~~~^^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+        compat.raise_(
+        ~~~~~~~~~~~~~^
+            exc_value,
+            ^^^^^^^^^^
+            with_traceback=exc_tb,
+            ^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+        raise exception
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 3549, in _flush
+        flush_context.execute()
+        ~~~~~~~~~~~~~~~~~~~~~^^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+        rec.execute(self)
+        ~~~~~~~~~~~^^^^^^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/unitofwork.py", line 667, in execute
+        util.preloaded.orm_persistence.delete_obj(
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+            self.mapper,
+            ^^^^^^^^^^^^
+            uow.states_for_mapper_hierarchy(self.mapper, True, False),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            uow,
+            ^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/persistence.py", line 343, in delete_obj
+        _emit_delete_statements(
+        ~~~~~~~~~~~~~~~~~~~~~~~^
+            base_mapper,
+            ^^^^^^^^^^^^
+        ...<3 lines>...
+            delete,
+            ^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/persistence.py", line 1468, in _emit_delete_statements
+        c = connection._execute_20(
+            statement, del_objects, execution_options=execution_options
+        )
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+        return meth(self, args_10style, kwargs_10style, execution_options)
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+        return connection._execute_clauseelement(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+            self, multiparams, params, execution_options
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+        ret = self._execute_context(
+            dialect,
+        ...<8 lines>...
+            cache_hit=cache_hit,
+        )
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+        self._handle_dbapi_exception(
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+            e, statement, parameters, cursor, context
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+        util.raise_(
+        ~~~~~~~~~~~^
+            sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+        raise exception
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+        self.dialect.do_execute(
+        ~~~~~~~~~~~~~~~~~~~~~~~^
+            cursor, statement, parameters, context
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+        cursor.execute(statement, parameters)
+        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+    sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+    [SQL: DELETE FROM script_lines WHERE script_lines.id = ?]
+    [parameters: (2,)]
+    (Background on this error at: https://sqlalche.me/e/14/gkpj)
+[E 251126 21:10:14 web:2407] 500 PATCH /api/v1/show/script?page=1 (172.18.0.1) 63.51ms
+[D 251126 21:10:14 base_controller:93] PATCH /api/v1/show/script {'page': [{'line_parts': [{'id': 1, 'line_id': 1, 'part_index': 0, 'character_id': 1, 'character_group_id': None, 'line_text': 'testsetestset'}], 'id': 1, 'act_id': 1, 'scene_id': 1, 'page': 1, 'stage_direction': False, 'stage_direction_style_id': None}, {'id': None, 'act_id': 1, 'scene_id': 1, 'page': 1, 'stage_direction': False, 'line_parts': [{'id': None, 'line_id': None, 'part_index': 0, 'character_id': 1, 'character_group_id': None, 'line_text': ' '}], 'stage_direction_style_id': None}, {'line_parts': [{'id': 2, 'line_id': 2, 'part_index': 0, 'character_id': 1, 'character_group_id': None, 'line_text': 'asdfasdfasdf'}], 'id': 2, 'act_id': 1, 'scene_id': 1, 'page': 1, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 3, 'line_id': 3, 'part_index': 0, 'character_id': None, 'character_group_id': None, 'line_text': 'asdfsadfads'}], 'id': 3, 'act_id': 1, 'scene_id': 1, 'page': 1, 'stage_direction': True, 'stage_direction_style_id': None}], 'status': {'added': [], 'updated': [2, 3], 'deleted': [], 'inserted': [1, 1]}}
+[I 251126 21:10:14 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 4.58ms
+[D 251126 21:10:24 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"STOP_SCRIPT_EDIT","DATA":{}}
+[I 251126 21:10:24 web:2407] 200 GET /api/v1/show/script/config (172.18.0.1) 2.64ms
+[D 251126 21:10:26 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REQUEST_SCRIPT_EDIT","DATA":{}}
+[I 251126 21:10:26 web:2407] 200 GET /api/v1/show/script/config (172.18.0.1) 2.44ms
+[E 251126 21:10:30 web:1934] Uncaught exception PATCH /api/v1/show/script?page=1 (172.18.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8080', method='PATCH', uri='/api/v1/show/script?page=1', version='HTTP/1.1', remote_ip='172.18.0.1')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+        self.dialect.do_execute(
+        ~~~~~~~~~~~~~~~~~~~~~~~^
+            cursor, statement, parameters, context
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+        cursor.execute(statement, parameters)
+        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+    sqlite3.IntegrityError: FOREIGN KEY constraint failed
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.13/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/server/controllers/api/show/script/script.py", line 633, in patch
+        session.flush()
+        ~~~~~~~~~~~~~^^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 3449, in flush
+        self._flush(objects)
+        ~~~~~~~~~~~^^^^^^^^^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 3588, in _flush
+        with util.safe_reraise():
+             ~~~~~~~~~~~~~~~~~^^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+        compat.raise_(
+        ~~~~~~~~~~~~~^
+            exc_value,
+            ^^^^^^^^^^
+            with_traceback=exc_tb,
+            ^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+        raise exception
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 3549, in _flush
+        flush_context.execute()
+        ~~~~~~~~~~~~~~~~~~~~~^^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+        rec.execute(self)
+        ~~~~~~~~~~~^^^^^^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/unitofwork.py", line 667, in execute
+        util.preloaded.orm_persistence.delete_obj(
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+            self.mapper,
+            ^^^^^^^^^^^^
+            uow.states_for_mapper_hierarchy(self.mapper, True, False),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            uow,
+            ^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/persistence.py", line 343, in delete_obj
+        _emit_delete_statements(
+        ~~~~~~~~~~~~~~~~~~~~~~~^
+            base_mapper,
+            ^^^^^^^^^^^^
+        ...<3 lines>...
+            delete,
+            ^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/persistence.py", line 1468, in _emit_delete_statements
+        c = connection._execute_20(
+            statement, del_objects, execution_options=execution_options
+        )
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+        return meth(self, args_10style, kwargs_10style, execution_options)
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+        return connection._execute_clauseelement(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+            self, multiparams, params, execution_options
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+        ret = self._execute_context(
+            dialect,
+        ...<8 lines>...
+            cache_hit=cache_hit,
+        )
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+        self._handle_dbapi_exception(
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+            e, statement, parameters, cursor, context
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+        util.raise_(
+        ~~~~~~~~~~~^
+            sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+        raise exception
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+        self.dialect.do_execute(
+        ~~~~~~~~~~~~~~~~~~~~~~~^
+            cursor, statement, parameters, context
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+        cursor.execute(statement, parameters)
+        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+    sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+    [SQL: DELETE FROM script_lines WHERE script_lines.id = ?]
+    [parameters: (2,)]
+    (Background on this error at: https://sqlalche.me/e/14/gkpj)
+[E 251126 21:10:30 web:2407] 500 PATCH /api/v1/show/script?page=1 (172.18.0.1) 53.23ms
+[D 251126 21:10:30 base_controller:93] PATCH /api/v1/show/script {'page': [{'line_parts': [{'id': 1, 'line_id': 1, 'part_index': 0, 'character_id': 1, 'character_group_id': None, 'line_text': 'testsetestset'}], 'id': 1, 'act_id': 1, 'scene_id': 1, 'page': 1, 'stage_direction': False, 'stage_direction_style_id': None}, {'id': None, 'act_id': 1, 'scene_id': 1, 'page': 1, 'stage_direction': False, 'line_parts': [{'id': None, 'line_id': None, 'part_index': 0, 'character_id': 1, 'character_group_id': None, 'line_text': 'asdfasdf'}], 'stage_direction_style_id': None}, {'line_parts': [{'id': 2, 'line_id': 2, 'part_index': 0, 'character_id': 1, 'character_group_id': None, 'line_text': 'asdfasdfasdf'}], 'id': 2, 'act_id': 1, 'scene_id': 1, 'page': 1, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 3, 'line_id': 3, 'part_index': 0, 'character_id': None, 'character_group_id': None, 'line_text': 'asdfsadfads'}], 'id': 3, 'act_id': 1, 'scene_id': 1, 'page': 1, 'stage_direction': True, 'stage_direction_style_id': None}], 'status': {'added': [], 'updated': [2, 3], 'deleted': [], 'inserted': [1, 1, 1]}}
+[I 251126 21:10:30 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 2.99ms
+[I 251126 21:10:49 web:2407] 200 GET /api/v1/auth (172.18.0.1) 2.75ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 4.94ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 3.94ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 2.81ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 4.17ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 5.51ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/cues/stats (172.18.0.1) 3.94ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 3.82ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.38ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 3.09ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 3.31ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 2.40ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/cues (172.18.0.1) 4.14ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 3.13ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.68ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 2.53ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 3.02ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/script?page=1 (172.18.0.1) 4.84ms
+[I 251126 21:10:49 web:2407] 304 GET /api/v1/show/script?page=2 (172.18.0.1) 3.29ms

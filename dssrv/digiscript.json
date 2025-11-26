@@ -1,0 +1,14 @@
+{
+    "has_admin_user": true,
+    "db_path": "sqlite:////server/digi_server/../conf/digiscript.sqlite",
+    "current_show": 1,
+    "debug_mode": false,
+    "log_path": "/server/digi_server/../conf/digiscript.log",
+    "max_log_mb": 100,
+    "log_backups": 5,
+    "db_log_enabled": false,
+    "db_log_path": "/server/digi_server/../conf/digiscript_db.log",
+    "db_max_log_mb": 100,
+    "db_log_backups": 5,
+    "compiled_script_path": "/server/digi_server/../conf/compiled_scripts"
+}
