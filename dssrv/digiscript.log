@@ -470,3 +470,1075 @@
 [D 251203 23:14:56 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_10","current_line":"page_2_line_14"}}
 [D 251203 23:14:56 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_11","current_line":"page_2_line_15"}}
 [D 251203 23:14:57 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_12","current_line":"page_2_line_14"}}
+[I 251204 20:01:52 main:119] Listening on port: 8080
+[W 251204 20:01:52 main:121] Running in debug mode
+[I 251204 20:01:56 web:2407] 200 GET / (172.18.0.1) 1.83ms
+[I 251204 20:01:56 web:2407] 200 GET /assets/index-a095bb1d.js (172.18.0.1) 7.70ms
+[I 251204 20:01:56 web:2407] 200 GET /assets/index-e89cc959.css (172.18.0.1) 1.43ms
+[I 251204 20:01:56 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.42ms
+[I 251204 20:01:56 ws_controller:72] WebSocket opened from: 172.18.0.1
+[W 251204 20:01:56 web:1932] 401 POST /api/v1/auth/refresh-token (172.18.0.1): User is not logged in
+[W 251204 20:01:56 web:2407] 401 POST /api/v1/auth/refresh-token (172.18.0.1) 4.37ms
+[D 251204 20:01:56 base_controller:121] POST /api/v1/auth/refresh-token {}
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 2.44ms
+[I 251204 20:01:56 web:2407] 200 GET /favicon.ico (172.18.0.1) 4.39ms
+[W 251204 20:01:56 web:1932] 401 POST /api/v1/auth/logout (172.18.0.1): User is not logged in
+[W 251204 20:01:56 web:2407] 401 POST /api/v1/auth/logout (172.18.0.1) 2.27ms
+[D 251204 20:01:56 base_controller:121] POST /api/v1/auth/logout {'session_id': '1128b319-52e6-494a-b963-9decfd003f1f'}
+[I 251204 20:01:56 web:2407] 200 GET /api/v1/settings (172.18.0.1) 1.97ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/settings (172.18.0.1) 1.47ms
+[I 251204 20:01:56 web:2407] 200 GET /api/v1/settings/raw (172.18.0.1) 1.13ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/settings (172.18.0.1) 1.01ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.13ms
+[I 251204 20:01:56 web:2407] 200 GET /api/v1/show (172.18.0.1) 2.28ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.08ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.60ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.07ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.86ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.01ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.66ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.14ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.68ms
+[I 251204 20:01:56 web:2407] 200 GET /api/v1/auth (172.18.0.1) 0.98ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.50ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 1.04ms
+[I 251204 20:01:56 web:2407] 200 GET /api/v1/show/sessions (172.18.0.1) 2.54ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.40ms
+[I 251204 20:01:56 web:2407] 200 GET /assets/index-8999f251.js (172.18.0.1) 0.83ms
+[I 251204 20:01:56 web:2407] 200 GET /assets/ShowLiveView-99af2a36.css (172.18.0.1) 1.42ms
+[I 251204 20:01:56 web:2407] 200 GET /assets/ShowLiveView-511167a8.js (172.18.0.1) 2.81ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.61ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/auth (172.18.0.1) 1.27ms
+[I 251204 20:01:56 web:2407] 200 GET /api/v1/show/act (172.18.0.1) 15.43ms
+[I 251204 20:01:56 web:2407] 200 GET /api/v1/show/scene (172.18.0.1) 17.50ms
+[I 251204 20:01:56 web:2407] 200 GET /api/v1/show/character (172.18.0.1) 12.82ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.59ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 11.27ms
+[I 251204 20:01:56 web:2407] 200 GET /api/v1/show/cues/types (172.18.0.1) 2.42ms
+[I 251204 20:01:56 web:2407] 200 GET /api/v1/show/cues (172.18.0.1) 3.31ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 2.55ms
+[I 251204 20:01:56 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.78ms
+[I 251204 20:01:56 web:2407] 200 GET /api/v1/show/script/max_page (172.18.0.1) 3.67ms
+[I 251204 20:01:56 web:2407] 200 GET /api/v1/show/script/compiled (172.18.0.1) 7.76ms
+[D 251204 20:01:56 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":null,"current_line":"page_2_line_14"}}
+[I 251204 20:02:01 web:2407] 200 GET /.well-known/appspecific/com.chrome.devtools.json (172.18.0.1) 1.71ms
+[I 251204 20:06:32 main:119] Listening on port: 8080
+[W 251204 20:06:32 main:121] Running in debug mode
+[I 251204 20:06:33 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.46ms
+[I 251204 20:06:33 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251204 20:06:33 web:2407] 200 GET /live (172.18.0.1) 1.75ms
+[D 251204 20:06:33 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"1128b319-52e6-494a-b963-9decfd003f1f"}
+[I 251204 20:06:33 ws_controller:159] WebSocket closed from: 172.18.0.1
+[I 251204 20:06:33 web:2407] 200 GET /assets/index-0962caca.js (172.18.0.1) 5.27ms
+[I 251204 20:06:33 web:2407] 304 GET /assets/index-e89cc959.css (172.18.0.1) 0.74ms
+[I 251204 20:06:33 web:2407] 200 GET /.well-known/appspecific/com.chrome.devtools.json (172.18.0.1) 1.87ms
+[I 251204 20:06:33 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.34ms
+[I 251204 20:06:33 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/settings (172.18.0.1) 1.75ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 3.12ms
+[D 251204 20:06:33 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"1128b319-52e6-494a-b963-9decfd003f1f"}
+[I 251204 20:06:33 web:2407] 304 GET /favicon.ico (172.18.0.1) 1.56ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/settings (172.18.0.1) 2.34ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 3.21ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/settings (172.18.0.1) 0.89ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 0.93ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.58ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.21ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.86ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.08ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.65ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.31ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 1.18ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.09ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.44ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.75ms
+[I 251204 20:06:33 web:2407] 200 GET /api/v1/show/sessions (172.18.0.1) 3.55ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.08ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.47ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/auth (172.18.0.1) 1.47ms
+[I 251204 20:06:33 web:2407] 200 GET /assets/ShowLiveView-c1ddd693.js (172.18.0.1) 0.70ms
+[I 251204 20:06:33 web:2407] 304 GET /assets/index-8999f251.js (172.18.0.1) 0.42ms
+[I 251204 20:06:33 web:2407] 304 GET /assets/ShowLiveView-99af2a36.css (172.18.0.1) 0.33ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 3.69ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.65ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/auth (172.18.0.1) 1.38ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 14.33ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 17.47ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 13.31ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.05ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 11.70ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 2.24ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show/cues (172.18.0.1) 3.55ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 2.72ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.97ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 3.53ms
+[I 251204 20:06:33 web:2407] 304 GET /api/v1/show/script/compiled (172.18.0.1) 9.39ms
+[D 251204 20:06:33 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":null,"current_line":"page_2_line_14"}}
+[I 251204 20:06:34 web:2407] 304 GET /live (172.18.0.1) 1.42ms
+[I 251204 20:06:35 ws_controller:159] WebSocket closed from: 172.18.0.1
+[I 251204 20:06:35 web:2407] 304 GET /.well-known/appspecific/com.chrome.devtools.json (172.18.0.1) 1.85ms
+[I 251204 20:06:35 web:2407] 304 GET /assets/index-0962caca.js (172.18.0.1) 1.77ms
+[I 251204 20:06:35 web:2407] 304 GET /assets/index-e89cc959.css (172.18.0.1) 0.63ms
+[I 251204 20:06:35 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.28ms
+[I 251204 20:06:35 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/settings (172.18.0.1) 1.40ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 2.51ms
+[D 251204 20:06:35 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"1128b319-52e6-494a-b963-9decfd003f1f"}
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/settings (172.18.0.1) 1.40ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 2.25ms
+[I 251204 20:06:35 web:2407] 304 GET /favicon.ico (172.18.0.1) 3.08ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/settings (172.18.0.1) 1.22ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 2.08ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.77ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.09ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.58ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.07ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.50ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.05ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 1.86ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 0.90ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.47ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.29ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.68ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.66ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 1.97ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/auth (172.18.0.1) 0.91ms
+[I 251204 20:06:35 web:2407] 304 GET /assets/ShowLiveView-c1ddd693.js (172.18.0.1) 0.42ms
+[I 251204 20:06:35 web:2407] 304 GET /assets/index-8999f251.js (172.18.0.1) 0.21ms
+[I 251204 20:06:35 web:2407] 304 GET /assets/ShowLiveView-99af2a36.css (172.18.0.1) 0.27ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.41ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 3.02ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/auth (172.18.0.1) 1.28ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 10.44ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 15.03ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 11.80ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.23ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 11.83ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 1.63ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show/cues (172.18.0.1) 2.42ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 1.92ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 1.76ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 2.24ms
+[I 251204 20:06:35 web:2407] 304 GET /api/v1/show/script/compiled (172.18.0.1) 7.21ms
+[D 251204 20:06:35 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":null,"current_line":"page_2_line_14"}}
+[I 251204 20:06:41 web:2407] 200 GET / (172.18.0.1) 1.49ms
+[I 251204 20:06:41 web:2407] 304 GET /assets/index-0962caca.js (172.18.0.1) 1.84ms
+[I 251204 20:06:41 web:2407] 304 GET /assets/index-e89cc959.css (172.18.0.1) 0.59ms
+[I 251204 20:06:41 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.25ms
+[I 251204 20:06:41 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/settings (172.18.0.1) 1.43ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 0.92ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.77ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/settings (172.18.0.1) 1.33ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.08ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/settings (172.18.0.1) 1.04ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.26ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.06ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.21ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.76ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.13ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.59ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.04ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.45ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 0.85ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.40ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/auth (172.18.0.1) 1.20ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show (172.18.0.1) 1.83ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 1.95ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.57ms
+[I 251204 20:06:41 web:2407] 304 GET /assets/ShowLiveView-c1ddd693.js (172.18.0.1) 0.55ms
+[I 251204 20:06:41 web:2407] 304 GET /assets/index-8999f251.js (172.18.0.1) 0.71ms
+[I 251204 20:06:41 web:2407] 304 GET /assets/ShowLiveView-99af2a36.css (172.18.0.1) 0.30ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.48ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/auth (172.18.0.1) 1.33ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 9.19ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 16.68ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 11.60ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.12ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 11.50ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 1.87ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show/cues (172.18.0.1) 2.16ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 2.01ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 1.73ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 2.79ms
+[I 251204 20:06:41 web:2407] 304 GET /api/v1/show/script/compiled (172.18.0.1) 7.60ms
+[D 251204 20:06:41 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":null,"current_line":"page_2_line_14"}}
+[I 251204 20:06:42 web:2407] 200 GET /assets/ConfigCast-e3b0c442.css (172.18.0.1) 0.56ms
+[I 251204 20:06:42 web:2407] 200 GET /assets/LoginView-468d2759.js (172.18.0.1) 0.87ms
+[I 251204 20:06:45 web:2407] 200 POST /api/v1/auth/login (172.18.0.1) 179.33ms
+[D 251204 20:06:45 base_controller:121] POST /api/v1/auth/login {'username': 'admin', 'password': 'admin123', 'session_id': '3a8828e2-c17c-42ee-92d1-eddd9fb0eb5b'}
+[I 251204 20:06:45 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 2.12ms
+[I 251204 20:06:45 web:2407] 200 GET /api/v1/auth (172.18.0.1) 1.82ms
+[I 251204 20:06:45 web:2407] 200 GET /api/v1/rbac/user/roles (172.18.0.1) 51.62ms
+[I 251204 20:06:45 web:2407] 200 GET /api/v1/user/settings (172.18.0.1) 2.73ms
+[D 251204 20:06:45 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"AUTHENTICATE","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQ5NjUyMDUsImlhdCI6MTc2NDg3ODgwNX0.nGAxXZtTfJnfPEVmpQp5_PyM0x9LPjIPz3xDU1f1qoM"}}
+[D 251204 20:06:45 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"AUTHENTICATE","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQ5NjUyMDUsImlhdCI6MTc2NDg3ODgwNX0.nGAxXZtTfJnfPEVmpQp5_PyM0x9LPjIPz3xDU1f1qoM"}}
+[D 251204 20:06:46 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"NEW_CLIENT","DATA":{}}
+[I 251204 20:06:46 web:2407] 200 GET /api/v1/show/sessions (172.18.0.1) 2.80ms
+[I 251204 20:06:46 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.77ms
+[I 251204 20:06:54 web:2407] 200 POST /api/v1/show/sessions/stop (172.18.0.1) 19.94ms
+[I 251204 20:06:54 web:2407] 200 GET /api/v1/show/sessions (172.18.0.1) 3.22ms
+[I 251204 20:06:54 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.42ms
+[I 251204 20:06:56 web:2407] 200 GET /assets/ConfigView-ec40c8bc.js (172.18.0.1) 0.68ms
+[I 251204 20:06:56 web:2407] 200 GET /api/v1/shows (172.18.0.1) 4.12ms
+[I 251204 20:06:56 web:2407] 200 GET /api/v1/auth/users (172.18.0.1) 2.66ms
+[I 251204 20:06:56 web:2407] 200 GET /api/v1/ws/sessions (172.18.0.1) 4.09ms
+[I 251204 20:06:56 web:2407] 200 GET /assets/ShowConfigView-fcb631f3.css (172.18.0.1) 0.50ms
+[I 251204 20:06:56 web:2407] 200 GET /assets/ShowConfigView-60d67c2e.js (172.18.0.1) 0.65ms
+[I 251204 20:06:56 web:2407] 200 GET /assets/ConfigShow-809e3152.js (172.18.0.1) 0.39ms
+[I 251204 20:06:56 web:2407] 200 GET /assets/ConfigShow-351cb8b7.css (172.18.0.1) 0.60ms
+[I 251204 20:06:56 web:2407] 200 GET /api/v1/show (172.18.0.1) 2.98ms
+[I 251204 20:06:56 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 11.57ms
+[I 251204 20:06:58 web:2407] 200 GET /assets/diff-610d41d0.js (172.18.0.1) 0.71ms
+[I 251204 20:06:58 web:2407] 200 GET /assets/ConfigScript-75308125.js (172.18.0.1) 1.04ms
+[I 251204 20:06:58 web:2407] 200 GET /assets/ConfigScript-502dc9a0.css (172.18.0.1) 0.44ms
+[I 251204 20:06:58 web:2407] 200 GET /api/v1/show/script/config (172.18.0.1) 4.21ms
+[I 251204 20:06:58 web:2407] 200 GET /api/v1/auth (172.18.0.1) 2.23ms
+[I 251204 20:06:58 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 3.76ms
+[I 251204 20:06:58 web:2407] 200 GET /api/v1/show/script/revisions (172.18.0.1) 3.45ms
+[I 251204 20:06:58 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 3.05ms
+[I 251204 20:06:58 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 2.42ms
+[I 251204 20:06:58 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 10.18ms
+[I 251204 20:06:58 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 38.47ms
+[I 251204 20:06:58 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 12.33ms
+[I 251204 20:06:58 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.74ms
+[I 251204 20:06:58 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 12.51ms
+[I 251204 20:06:58 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.66ms
+[I 251204 20:06:58 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 3.03ms
+[I 251204 20:06:58 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 2.84ms
+[I 251204 20:06:58 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 3.24ms
+[I 251204 20:06:58 web:2407] 200 GET /api/v1/show/script?page=1 (172.18.0.1) 12.10ms
+[I 251204 20:06:58 web:2407] 200 GET /api/v1/show/script?page=2 (172.18.0.1) 13.77ms
+[I 251204 20:07:06 web:2407] 200 GET /api/v1/show/script?page=3 (172.18.0.1) 10.73ms
+[D 251204 20:07:13 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REQUEST_SCRIPT_EDIT","DATA":{}}
+[I 251204 20:07:13 web:2407] 200 GET /api/v1/show/script/config (172.18.0.1) 3.44ms
+[I 251204 20:07:13 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 1.93ms
+[I 251204 20:09:16 web:2407] 200 GET /assets/ConfigScenes-f061ff90.js (172.18.0.1) 0.45ms
+[I 251204 20:09:16 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 17.05ms
+[I 251204 20:09:16 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 11.20ms
+[I 251204 20:09:24 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 2.78ms
+[I 251204 20:09:24 web:2407] 200 GET /api/v1/auth (172.18.0.1) 1.76ms
+[I 251204 20:09:24 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 5.64ms
+[I 251204 20:09:24 web:2407] 304 GET /api/v1/show/script/revisions (172.18.0.1) 4.06ms
+[I 251204 20:09:24 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 3.46ms
+[I 251204 20:09:24 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 2.97ms
+[I 251204 20:09:24 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 9.87ms
+[I 251204 20:09:24 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 16.76ms
+[I 251204 20:09:24 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 12.46ms
+[I 251204 20:09:24 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 3.95ms
+[I 251204 20:09:24 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 12.92ms
+[I 251204 20:09:24 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.84ms
+[I 251204 20:09:24 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 2.61ms
+[I 251204 20:09:24 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 3.31ms
+[I 251204 20:09:24 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 2.96ms
+[I 251204 20:09:24 web:2407] 304 GET /api/v1/show/script?page=1 (172.18.0.1) 11.08ms
+[I 251204 20:09:24 web:2407] 304 GET /api/v1/show/script?page=2 (172.18.0.1) 10.31ms
+[I 251204 20:09:25 web:2407] 304 GET /api/v1/show/script?page=3 (172.18.0.1) 11.25ms
+[I 251204 20:15:30 main:119] Listening on port: 8080
+[W 251204 20:15:30 main:121] Running in debug mode
+[I 251204 20:15:31 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.39ms
+[I 251204 20:15:31 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251204 20:15:31 web:2407] 304 GET / (172.18.0.1) 2.46ms
+[I 251204 20:15:31 web:2407] 101 GET /api/v1/ws (172.18.0.1) 2.38ms
+[I 251204 20:15:31 ws_controller:72] WebSocket opened from: 172.18.0.1
+[D 251204 20:15:31 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"1128b319-52e6-494a-b963-9decfd003f1f"}
+[I 251204 20:15:31 web:2407] 200 GET /show-config/script (172.18.0.1) 37.04ms
+[I 251204 20:15:31 ws_controller:159] WebSocket closed from: 172.18.0.1
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings (172.18.0.1) 1.58ms
+[E 251204 20:15:31 web:1934] Uncaught exception GET /api/v1/settings (172.18.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8080', method='GET', uri='/api/v1/settings', version='HTTP/1.1', remote_ip='172.18.0.1')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.13/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/server/controllers/api/settings.py", line 15, in get
+        await self.finish(settings_json)
+    tornado.iostream.StreamClosedError: Stream is closed
+[D 251204 20:15:31 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"3a8828e2-c17c-42ee-92d1-eddd9fb0eb5b"}
+[I 251204 20:15:31 web:2407] 304 GET /assets/index-0962caca.js (172.18.0.1) 37.27ms
+[I 251204 20:15:31 web:2407] 200 GET /api/v1/settings (172.18.0.1) 39.80ms
+[I 251204 20:15:31 web:2407] 304 GET /assets/index-e89cc959.css (172.18.0.1) 41.66ms
+[I 251204 20:15:31 ws_controller:159] WebSocket closed from: 172.18.0.1
+[I 251204 20:15:31 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.30ms
+[I 251204 20:15:31 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251204 20:15:31 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.57ms
+[I 251204 20:15:31 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251204 20:15:31 web:2407] 200 POST /api/v1/auth/refresh-token (172.18.0.1) 19.92ms
+[D 251204 20:15:31 base_controller:121] POST /api/v1/auth/refresh-token {}
+[I 251204 20:15:31 web:2407] 200 POST /api/v1/auth/refresh-token (172.18.0.1) 22.40ms
+[D 251204 20:15:31 base_controller:121] POST /api/v1/auth/refresh-token {}
+[D 251204 20:15:31 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"1128b319-52e6-494a-b963-9decfd003f1f"}
+[I 251204 20:15:31 web:2407] 200 GET /api/v1/settings (172.18.0.1) 33.61ms
+[I 251204 20:15:31 web:2407] 304 GET /favicon.ico (172.18.0.1) 34.90ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 37.22ms
+[D 251204 20:15:31 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"3a8828e2-c17c-42ee-92d1-eddd9fb0eb5b"}
+[D 251204 20:15:31 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_TOKEN","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQ5NjU3MzEsImlhdCI6MTc2NDg3OTMzMX0.nx6fkmmXDdA00rH0jX2bAsOC3-nyUvTtGm7O084od7A"}}
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 2.38ms
+[I 251204 20:15:31 web:2407] 304 GET /favicon.ico (172.18.0.1) 3.23ms
+[D 251204 20:15:31 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_TOKEN","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQ5NjU3MzEsImlhdCI6MTc2NDg3OTMzMX0.nx6fkmmXDdA00rH0jX2bAsOC3-nyUvTtGm7O084od7A"}}
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 21.65ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings (172.18.0.1) 3.73ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.78ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/show (172.18.0.1) 3.85ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings (172.18.0.1) 2.02ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 2.10ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/show (172.18.0.1) 4.66ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings (172.18.0.1) 2.06ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.81ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/show (172.18.0.1) 3.96ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings (172.18.0.1) 1.61ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.80ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/show (172.18.0.1) 4.05ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings (172.18.0.1) 1.73ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 2.06ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/show (172.18.0.1) 4.20ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.61ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.31ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.63ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.32ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.85ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 3.54ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.75ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.14ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.64ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.28ms
+[I 251204 20:15:31 web:2407] 200 GET /api/v1/auth (172.18.0.1) 1.96ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 3.54ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.28ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 1.74ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.34ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/auth (172.18.0.1) 1.54ms
+[I 251204 20:15:31 web:2407] 200 GET /api/v1/rbac/user/roles (172.18.0.1) 55.46ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/auth (172.18.0.1) 1.75ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.26ms
+[I 251204 20:15:31 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 2.58ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 49.41ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/auth (172.18.0.1) 1.71ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 48.99ms
+[I 251204 20:15:32 web:2407] 200 GET /api/v1/show/sessions (172.18.0.1) 2.91ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 47.76ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 2.25ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.49ms
+[I 251204 20:15:32 web:2407] 304 GET /assets/ShowConfigView-fcb631f3.css (172.18.0.1) 1.12ms
+[I 251204 20:15:32 web:2407] 304 GET /assets/ShowConfigView-60d67c2e.js (172.18.0.1) 1.61ms
+[I 251204 20:15:32 web:2407] 304 GET /assets/ConfigScript-75308125.js (172.18.0.1) 2.19ms
+[I 251204 20:15:32 web:2407] 304 GET /assets/ConfigScript-502dc9a0.css (172.18.0.1) 0.44ms
+[I 251204 20:15:32 web:2407] 304 GET /assets/diff-610d41d0.js (172.18.0.1) 0.50ms
+[I 251204 20:15:32 web:2407] 200 GET /api/v1/show/script/config (172.18.0.1) 3.75ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/auth (172.18.0.1) 2.45ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 3.63ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/show/script/revisions (172.18.0.1) 2.89ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 3.15ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 2.92ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 12.15ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 17.48ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 13.76ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.75ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 13.33ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.61ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 3.02ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 3.08ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 5.32ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/show/script?page=1 (172.18.0.1) 34.32ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/show/script?page=2 (172.18.0.1) 10.62ms
+[I 251204 20:15:32 web:2407] 304 GET /api/v1/show/script?page=3 (172.18.0.1) 10.37ms
+[I 251204 20:15:38 web:2407] 304 GET /show-config/script (172.18.0.1) 1.52ms
+[I 251204 20:15:38 ws_controller:159] WebSocket closed from: 172.18.0.1
+[I 251204 20:15:38 web:2407] 200 POST /api/v1/auth/refresh-token (172.18.0.1) 3.94ms
+[D 251204 20:15:38 base_controller:121] POST /api/v1/auth/refresh-token {}
+[I 251204 20:15:38 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.22ms
+[I 251204 20:15:38 ws_controller:72] WebSocket opened from: 172.18.0.1
+[D 251204 20:15:38 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_TOKEN","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQ5NjU3MzgsImlhdCI6MTc2NDg3OTMzOH0.a4nAKIdbNNOUW0kFeHwpKYRREjQ9QAA833D1tLfh9pE"}}
+[D 251204 20:15:38 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"3a8828e2-c17c-42ee-92d1-eddd9fb0eb5b"}
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 2.93ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/settings (172.18.0.1) 4.64ms
+[I 251204 20:15:39 web:2407] 304 GET /favicon.ico (172.18.0.1) 5.51ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/settings (172.18.0.1) 2.08ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.85ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/settings (172.18.0.1) 1.57ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.77ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show (172.18.0.1) 3.84ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.70ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.58ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.62ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.34ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.78ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 3.30ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.61ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.13ms
+[I 251204 20:15:39 web:2407] 200 GET /api/v1/auth (172.18.0.1) 1.53ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.72ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show (172.18.0.1) 4.27ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 49.73ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/auth (172.18.0.1) 1.94ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 2.11ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 50.36ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.48ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 2.47ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/auth (172.18.0.1) 1.93ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 3.11ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show/script/revisions (172.18.0.1) 2.77ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 2.76ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 2.22ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 13.36ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 16.05ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 12.39ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.54ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 12.44ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.71ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 2.29ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 3.00ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 3.02ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show/script?page=1 (172.18.0.1) 10.85ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show/script?page=2 (172.18.0.1) 10.22ms
+[I 251204 20:15:39 web:2407] 304 GET /api/v1/show/script?page=3 (172.18.0.1) 10.34ms
+[I 251204 20:15:42 web:2407] 200 POST /api/v1/show/sessions/start (172.18.0.1) 19.66ms
+[D 251204 20:15:42 base_controller:121] POST /api/v1/show/sessions/start {'session_id': '3a8828e2-c17c-42ee-92d1-eddd9fb0eb5b'}
+[I 251204 20:15:42 web:2407] 200 GET /api/v1/show/sessions (172.18.0.1) 3.39ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 3.07ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 3.05ms
+[I 251204 20:15:42 web:2407] 304 GET /assets/ShowLiveView-c1ddd693.js (172.18.0.1) 0.72ms
+[I 251204 20:15:42 web:2407] 304 GET /assets/index-8999f251.js (172.18.0.1) 0.61ms
+[I 251204 20:15:42 web:2407] 304 GET /assets/ShowLiveView-99af2a36.css (172.18.0.1) 0.53ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 3.30ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/auth (172.18.0.1) 2.30ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 3.31ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 3.69ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 10.34ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 16.31ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 12.54ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 3.04ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.36ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 12.96ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 2.94ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/auth (172.18.0.1) 1.67ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/cues (172.18.0.1) 3.53ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 2.67ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 2.79ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 10.06ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.64ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 15.84ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 3.15ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 12.33ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/script/compiled (172.18.0.1) 8.06ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.57ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 13.43ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/cues/types (172.18.0.1) 3.16ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/cues (172.18.0.1) 4.52ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 2.92ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.86ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 3.27ms
+[I 251204 20:15:42 web:2407] 304 GET /api/v1/show/script/compiled (172.18.0.1) 7.56ms
+[D 251204 20:15:43 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":null,"current_line":"page_1_line_0"}}
+[D 251204 20:15:43 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":null,"current_line":"page_1_line_0"}}
+[D 251204 20:15:44 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_0","current_line":"page_1_line_1"}}
+[D 251204 20:15:44 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_1","current_line":"page_1_line_2"}}
+[D 251204 20:15:44 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_1","current_line":"page_1_line_3"}}
+[D 251204 20:15:44 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_3","current_line":"page_1_line_4"}}
+[D 251204 20:15:45 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_4","current_line":"page_1_line_5"}}
+[D 251204 20:15:45 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_3","current_line":"page_1_line_6"}}
+[D 251204 20:15:45 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_5","current_line":"page_1_line_7"}}
+[D 251204 20:15:45 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_7","current_line":"page_1_line_8"}}
+[D 251204 20:15:46 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_5","current_line":"page_1_line_9"}}
+[D 251204 20:15:46 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_6","current_line":"page_1_line_10"}}
+[D 251204 20:15:46 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_7","current_line":"page_1_line_11"}}
+[D 251204 20:15:46 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_8","current_line":"page_1_line_12"}}
+[D 251204 20:15:46 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_9","current_line":"page_1_line_13"}}
+[D 251204 20:15:46 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_10","current_line":"page_1_line_14"}}
+[D 251204 20:15:46 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_11","current_line":"page_1_line_15"}}
+[D 251204 20:15:47 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_12","current_line":"page_1_line_16"}}
+[D 251204 20:15:47 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_13","current_line":"page_1_line_17"}}
+[D 251204 20:15:47 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_14","current_line":"page_1_line_18"}}
+[D 251204 20:15:47 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_15","current_line":"page_1_line_19"}}
+[D 251204 20:15:47 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_16","current_line":"page_2_line_0"}}
+[D 251204 20:15:47 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_17","current_line":"page_2_line_1"}}
+[D 251204 20:15:47 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_18","current_line":"page_2_line_2"}}
+[D 251204 20:15:48 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_1_line_19","current_line":"page_2_line_3"}}
+[D 251204 20:15:48 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_0","current_line":"page_2_line_4"}}
+[D 251204 20:15:48 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_1","current_line":"page_2_line_5"}}
+[D 251204 20:15:48 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_2","current_line":"page_2_line_6"}}
+[D 251204 20:15:49 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_3","current_line":"page_2_line_7"}}
+[D 251204 20:15:49 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_4","current_line":"page_2_line_8"}}
+[D 251204 20:15:49 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_5","current_line":"page_2_line_9"}}
+[D 251204 20:15:49 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_6","current_line":"page_2_line_10"}}
+[D 251204 20:15:49 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_7","current_line":"page_2_line_11"}}
+[D 251204 20:15:49 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_8","current_line":"page_2_line_12"}}
+[D 251204 20:15:50 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_9","current_line":"page_2_line_13"}}
+[D 251204 20:15:50 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_10","current_line":"page_2_line_14"}}
+[D 251204 20:15:51 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_11","current_line":"page_2_line_15"}}
+[D 251204 20:15:51 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_12","current_line":"page_2_line_16"}}
+[D 251204 20:15:51 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_13","current_line":"page_2_line_17"}}
+[D 251204 20:15:52 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_14","current_line":"page_2_line_18"}}
+[D 251204 20:15:52 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_15","current_line":"page_2_line_19"}}
+[D 251204 20:15:52 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_16","current_line":"page_3_line_0"}}
+[D 251204 20:15:52 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_17","current_line":"page_3_line_1"}}
+[D 251204 20:15:52 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_18","current_line":"page_3_line_2"}}
+[D 251204 20:15:52 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_19","current_line":"page_3_line_3"}}
+[D 251204 20:16:31 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_0","current_line":"page_3_line_4"}}
+[D 251204 20:16:31 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_1","current_line":"page_3_line_5"}}
+[D 251204 20:16:31 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_3","current_line":"page_3_line_6"}}
+[D 251204 20:16:31 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_8","current_line":"page_3_line_7"}}
+[D 251204 20:16:31 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_4","current_line":"page_3_line_8"}}
+[D 251204 20:16:31 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_6","current_line":"page_3_line_9"}}
+[D 251204 20:16:32 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_10","current_line":"page_3_line_10"}}
+[D 251204 20:16:32 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_8","current_line":"page_3_line_11"}}
+[D 251204 20:16:32 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_11","current_line":"page_3_line_12"}}
+[D 251204 20:16:32 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_12","current_line":"page_3_line_13"}}
+[D 251204 20:16:32 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_11","current_line":"page_3_line_14"}}
+[D 251204 20:16:33 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_15","current_line":"page_3_line_15"}}
+[D 251204 20:16:33 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_13","current_line":"page_3_line_16"}}
+[D 251204 20:16:33 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_16","current_line":"page_3_line_17"}}
+[D 251204 20:16:33 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_17","current_line":"page_3_line_18"}}
+[D 251204 20:16:33 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_16","current_line":"page_3_line_19"}}
+[D 251204 20:16:33 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_0","current_line":"page_4_line_0"}}
+[D 251204 20:16:34 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_1","current_line":"page_4_line_1"}}
+[D 251204 20:16:34 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_0","current_line":"page_4_line_2"}}
+[D 251204 20:16:34 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_4","current_line":"page_4_line_3"}}
+[D 251204 20:16:34 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_0","current_line":"page_4_line_4"}}
+[D 251204 20:16:34 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_4","current_line":"page_4_line_5"}}
+[D 251204 20:16:35 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_8","current_line":"page_4_line_6"}}
+[D 251204 20:16:35 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_4","current_line":"page_4_line_7"}}
+[D 251204 20:16:35 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_7","current_line":"page_4_line_8"}}
+[D 251204 20:16:35 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_11","current_line":"page_4_line_9"}}
+[D 251204 20:16:35 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_6","current_line":"page_4_line_10"}}
+[D 251204 20:16:35 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_10","current_line":"page_4_line_11"}}
+[D 251204 20:16:35 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_14","current_line":"page_4_line_12"}}
+[D 251204 20:16:36 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_10","current_line":"page_4_line_13"}}
+[D 251204 20:16:36 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_14","current_line":"page_4_line_14"}}
+[D 251204 20:16:36 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_15","current_line":"page_4_line_13"}}
+[D 251204 20:16:36 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_9","current_line":"page_4_line_12"}}
+[D 251204 20:16:36 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_15","current_line":"page_4_line_11"}}
+[D 251204 20:16:36 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_13","current_line":"page_4_line_10"}}
+[D 251204 20:16:36 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_7","current_line":"page_4_line_9"}}
+[D 251204 20:16:36 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_8","current_line":"page_4_line_8"}}
+[D 251204 20:16:36 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_7","current_line":"page_4_line_7"}}
+[D 251204 20:16:36 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_6","current_line":"page_4_line_6"}}
+[D 251204 20:16:37 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_5","current_line":"page_4_line_7"}}
+[D 251204 20:16:37 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_4","current_line":"page_4_line_6"}}
+[D 251204 20:16:37 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_3","current_line":"page_4_line_5"}}
+[D 251204 20:16:37 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_2","current_line":"page_4_line_4"}}
+[D 251204 20:16:37 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_4_line_0","current_line":"page_4_line_3"}}
+[D 251204 20:16:38 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_18","current_line":"page_4_line_2"}}
+[D 251204 20:16:38 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_19","current_line":"page_4_line_1"}}
+[D 251204 20:16:38 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_17","current_line":"page_4_line_0"}}
+[D 251204 20:16:38 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_15","current_line":"page_3_line_19"}}
+[D 251204 20:16:38 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_16","current_line":"page_3_line_18"}}
+[D 251204 20:16:38 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_15","current_line":"page_3_line_17"}}
+[D 251204 20:16:38 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_10","current_line":"page_3_line_16"}}
+[D 251204 20:16:38 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_16","current_line":"page_3_line_15"}}
+[D 251204 20:16:38 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_15","current_line":"page_3_line_14"}}
+[D 251204 20:16:39 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_14","current_line":"page_3_line_13"}}
+[D 251204 20:16:39 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_13","current_line":"page_3_line_12"}}
+[D 251204 20:16:39 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_6","current_line":"page_3_line_11"}}
+[D 251204 20:16:39 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_3","current_line":"page_3_line_10"}}
+[D 251204 20:16:40 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_6","current_line":"page_3_line_9"}}
+[D 251204 20:16:40 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_9","current_line":"page_3_line_8"}}
+[D 251204 20:16:40 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_4","current_line":"page_3_line_7"}}
+[D 251204 20:16:40 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_1","current_line":"page_3_line_6"}}
+[D 251204 20:16:40 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_3","current_line":"page_3_line_5"}}
+[D 251204 20:16:40 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_2","current_line":"page_3_line_4"}}
+[D 251204 20:16:43 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_19","current_line":"page_3_line_3"}}
+[D 251204 20:16:43 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_3_line_0","current_line":"page_3_line_2"}}
+[D 251204 20:16:44 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_19","current_line":"page_3_line_1"}}
+[D 251204 20:16:44 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_18","current_line":"page_3_line_0"}}
+[D 251204 20:16:44 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_17","current_line":"page_2_line_19"}}
+[D 251204 20:16:44 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_16","current_line":"page_2_line_18"}}
+[D 251204 20:16:44 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_15","current_line":"page_2_line_17"}}
+[D 251204 20:16:44 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_14","current_line":"page_2_line_16"}}
+[D 251204 20:16:44 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_13","current_line":"page_2_line_15"}}
+[D 251204 20:16:44 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_11","current_line":"page_2_line_14"}}
+[D 251204 20:16:44 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_14","current_line":"page_2_line_13"}}
+[D 251204 20:16:44 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_10","current_line":"page_2_line_12"}}
+[D 251204 20:16:44 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_9","current_line":"page_2_line_11"}}
+[D 251204 20:16:45 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_8","current_line":"page_2_line_12"}}
+[D 251204 20:16:45 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_9","current_line":"page_2_line_13"}}
+[D 251204 20:16:46 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_10","current_line":"page_2_line_14"}}
+[D 251204 20:16:46 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"SCRIPT_SCROLL","DATA":{"previous_line":"page_2_line_11","current_line":"page_2_line_15"}}
+[I 251204 20:20:27 web:2407] 200 POST /api/v1/show/sessions/stop (172.18.0.1) 18.55ms
+[I 251204 20:20:27 web:2407] 200 GET /api/v1/show/sessions (172.18.0.1) 3.04ms
+[I 251204 20:20:27 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.50ms
+[I 251204 20:20:27 web:2407] 304 GET /assets/ConfigShow-809e3152.js (172.18.0.1) 0.84ms
+[I 251204 20:20:27 web:2407] 304 GET /assets/ConfigShow-351cb8b7.css (172.18.0.1) 1.38ms
+[I 251204 20:20:27 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.90ms
+[I 251204 20:20:28 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 11.68ms
+[I 251204 20:20:28 web:2407] 200 GET /assets/ConfigActs-0d1d8920.js (172.18.0.1) 1.11ms
+[I 251204 20:20:28 web:2407] 304 GET /assets/ConfigCast-e3b0c442.css (172.18.0.1) 0.35ms
+[I 251204 20:20:28 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 11.55ms
+[I 251204 20:20:28 web:2407] 304 GET /assets/ConfigScenes-f061ff90.js (172.18.0.1) 1.08ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 18.13ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 10.61ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 3.66ms
+[I 251204 20:20:29 web:2407] 200 GET /api/v1/auth (172.18.0.1) 2.15ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.79ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/script/revisions (172.18.0.1) 3.76ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 3.05ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 2.53ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 10.81ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 16.01ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 12.95ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.53ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 13.01ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.88ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 2.41ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 2.87ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 2.98ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/script?page=1 (172.18.0.1) 11.52ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/script?page=2 (172.18.0.1) 11.02ms
+[I 251204 20:20:29 web:2407] 304 GET /api/v1/show/script?page=3 (172.18.0.1) 10.21ms
+[D 251204 20:20:33 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REQUEST_SCRIPT_EDIT","DATA":{}}
+[I 251204 20:20:33 web:2407] 200 GET /api/v1/show/script/config (172.18.0.1) 3.05ms
+[I 251204 20:20:33 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 2.37ms
+[E 251204 20:30:34 web:1934] Uncaught exception PATCH /api/v1/show/script?page=2 (172.18.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8080', method='PATCH', uri='/api/v1/show/script?page=2', version='HTTP/1.1', remote_ip='172.18.0.1')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+        self.dialect.do_execute(
+        ~~~~~~~~~~~~~~~~~~~~~~~^
+            cursor, statement, parameters, context
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+        cursor.execute(statement, parameters)
+        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+    sqlite3.IntegrityError: FOREIGN KEY constraint failed
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.13/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/server/controllers/api/show/script/script.py", line 633, in patch
+        session.flush()
+        ~~~~~~~~~~~~~^^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 3449, in flush
+        self._flush(objects)
+        ~~~~~~~~~~~^^^^^^^^^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 3588, in _flush
+        with util.safe_reraise():
+             ~~~~~~~~~~~~~~~~~^^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+        compat.raise_(
+        ~~~~~~~~~~~~~^
+            exc_value,
+            ^^^^^^^^^^
+            with_traceback=exc_tb,
+            ^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+        raise exception
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 3549, in _flush
+        flush_context.execute()
+        ~~~~~~~~~~~~~~~~~~~~~^^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+        rec.execute(self)
+        ~~~~~~~~~~~^^^^^^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/unitofwork.py", line 667, in execute
+        util.preloaded.orm_persistence.delete_obj(
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+            self.mapper,
+            ^^^^^^^^^^^^
+            uow.states_for_mapper_hierarchy(self.mapper, True, False),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            uow,
+            ^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/persistence.py", line 343, in delete_obj
+        _emit_delete_statements(
+        ~~~~~~~~~~~~~~~~~~~~~~~^
+            base_mapper,
+            ^^^^^^^^^^^^
+        ...<3 lines>...
+            delete,
+            ^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/orm/persistence.py", line 1468, in _emit_delete_statements
+        c = connection._execute_20(
+            statement, del_objects, execution_options=execution_options
+        )
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+        return meth(self, args_10style, kwargs_10style, execution_options)
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+        return connection._execute_clauseelement(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+            self, multiparams, params, execution_options
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+        ret = self._execute_context(
+            dialect,
+        ...<8 lines>...
+            cache_hit=cache_hit,
+        )
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+        self._handle_dbapi_exception(
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+            e, statement, parameters, cursor, context
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+        util.raise_(
+        ~~~~~~~~~~~^
+            sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+        raise exception
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+        self.dialect.do_execute(
+        ~~~~~~~~~~~~~~~~~~~~~~~^
+            cursor, statement, parameters, context
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+      File "/usr/local/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+        cursor.execute(statement, parameters)
+        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+    sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+    [SQL: DELETE FROM script_lines WHERE script_lines.id = ?]
+    [parameters: (36,)]
+    (Background on this error at: https://sqlalche.me/e/14/gkpj)
+[E 251204 20:30:34 web:2407] 500 PATCH /api/v1/show/script?page=2 (172.18.0.1) 26.11ms
+[D 251204 20:30:34 base_controller:121] PATCH /api/v1/show/script {'page': [{'line_parts': [{'id': 21, 'line_id': 21, 'part_index': 0, 'character_id': 3, 'character_group_id': None, 'line_text': 'My Rapunzel!'}], 'id': 21, 'act_id': 1, 'scene_id': 1, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 22, 'line_id': 22, 'part_index': 0, 'character_id': 2, 'character_group_id': None, 'line_text': 'Bless you. Can someone turn the heating on?'}], 'id': 22, 'act_id': 1, 'scene_id': 1, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 23, 'line_id': 23, 'part_index': 0, 'character_id': 3, 'character_group_id': None, 'line_text': 'No, you blithering idiot. You’ve just fed my prize possession to your screaming brat! If you want your baby to live, you must give her to me.'}], 'id': 23, 'act_id': 1, 'scene_id': 1, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 24, 'line_id': 24, 'part_index': 0, 'character_id': 2, 'character_group_id': None, 'line_text': 'What do you mean – is it poison?'}], 'id': 24, 'act_id': 1, 'scene_id': 1, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 25, 'line_id': 25, 'part_index': 0, 'character_id': 3, 'character_group_id': None, 'line_text': "Yes, and I'm the only witch – er, one who can cure her."}], 'id': 25, 'act_id': 1, 'scene_id': 1, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 26, 'line_id': 26, 'part_index': 0, 'character_id': None, 'character_group_id': None, 'line_text': 'GOTHEL takes the baby'}], 'id': 26, 'act_id': 1, 'scene_id': 1, 'page': 2, 'stage_direction': True, 'stage_direction_style_id': None}, {'line_parts': [{'id': 27, 'line_id': 27, 'part_index': 0, 'character_id': 2, 'character_group_id': None, 'line_text': 'How long will it take – will she be ok?'}], 'id': 27, 'act_id': 1, 'scene_id': 1, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 28, 'line_id': 28, 'part_index': 0, 'character_id': 3, 'character_group_id': None, 'line_text': 'She’s not your concern anymore. You stole something irreplaceable from me, so I’m stealing something irreplaceable from you.'}], 'id': 28, 'act_id': 1, 'scene_id': 1, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 29, 'line_id': 29, 'part_index': 0, 'character_id': 2, 'character_group_id': None, 'line_text': 'Over my dead body!'}], 'id': 29, 'act_id': 1, 'scene_id': 1, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 30, 'line_id': 30, 'part_index': 0, 'character_id': 3, 'character_group_id': None, 'line_text': 'Don’t tempt me. Now, get out of here before I regret my decision to let you both live.'}], 'id': 30, 'act_id': 1, 'scene_id': 1, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 31, 'line_id': 31, 'part_index': 0, 'character_id': 2, 'character_group_id': None, 'line_text': "I’ll get my baby back – you'll never win you horrible old witch!"}], 'id': 31, 'act_id': 1, 'scene_id': 1, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 32, 'line_id': 32, 'part_index': 0, 'character_id': None, 'character_group_id': None, 'line_text': 'The baby cries, hair still glowing'}], 'id': 32, 'act_id': 1, 'scene_id': 1, 'page': 2, 'stage_direction': True, 'stage_direction_style_id': None}, {'line_parts': [{'id': 33, 'line_id': 33, 'part_index': 0, 'character_id': 3, 'character_group_id': None, 'line_text': 'I’ve already won... hahaha!'}], 'id': 33, 'act_id': 1, 'scene_id': 1, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 34, 'line_id': 34, 'part_index': 0, 'character_id': 1, 'character_group_id': None, 'line_text': "Gothel was obsessed with youth, beauty and power, \nWhich is what came from that unnatural flower,\nFed to the baby by her unknowing mother,\nThe newly named Rapunzel is to be raised by another\n\nFor she was now cursed or blessed with magical hair,\nThe powerful plant she was fed gave her a certain flair,\nFor a witch such as Gothel to reverse in age,\nRapunzel would spend her days in a cage\n\n17 years have passed since that fateful day\nWhen a mother was trying to keep the hunger at bay. \nNow locked in a tower to serve the needs of the witch,\nKept from the outside world – that's pretty much the sitch\n\nMade to believe that the outside world was scary\nThe only thing was Rapunzel’s hair grew well... quite hairy!\nGet ready boys and girls, for now it’s time to begin\nLet’s find out if evil will fail, and goodness will win!"}], 'id': 34, 'act_id': 1, 'scene_id': 1, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 35, 'line_id': 35, 'part_index': 0, 'character_id': None, 'character_group_id': None, 'line_text': 'Dancing through life'}], 'id': 35, 'act_id': 1, 'scene_id': 2, 'page': 2, 'stage_direction': True, 'stage_direction_style_id': None}, {'line_parts': [{'id': 36, 'line_id': 36, 'part_index': 0, 'character_id': 4, 'character_group_id': None, 'line_text': "Dancing through life, swaying and sweepingAnd always keeping coolLife is fraughtless when you're thoughtlessThose who don't try never look foolishDancing through life, mindless and carelessMake sure you're where less trouble is rifeWoes are fleeting, blows are glancingWhen you're dancing through lifeLet’s go down it’s time for a party We're all gunna have a good nightWe can dance 'til it's lightTime to dance and singDon’t worry ‘bout a thingCome on now, time to start the partyCome on, follow meYou’ll be happy to be there Dancing through life, it’s time for a partyIf only because we hope you come too And here's the strange thing, your life could end up changingWhile you're dancing through"}], 'id': 36, 'act_id': 1, 'scene_id': 2, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 37, 'line_id': 37, 'part_index': 0, 'character_id': 5, 'character_group_id': None, 'line_text': 'Hello boys and girls! Oh, come on you can do better than that, hello boys and girls! My name is Goldilocks, and I live here in the village with my mum.'}], 'id': 37, 'act_id': 1, 'scene_id': 2, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 38, 'line_id': 38, 'part_index': 0, 'character_id': 6, 'character_group_id': None, 'line_text': 'Oi! What about us?'}], 'id': 38, 'act_id': 1, 'scene_id': 2, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 39, 'line_id': 39, 'part_index': 0, 'character_id': 7, 'character_group_id': None, 'line_text': 'Yeah, you can’t forget us.'}], 'id': 39, 'act_id': 1, 'scene_id': 2, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}, {'line_parts': [{'id': 40, 'line_id': 40, 'part_index': 0, 'character_id': 5, 'character_group_id': None, 'line_text': 'How could I? You’re far too annoying.'}], 'id': 40, 'act_id': 1, 'scene_id': 2, 'page': 2, 'stage_direction': False, 'stage_direction_style_id': None}], 'status': {'added': [], 'updated': [15, 16, 17, 18, 19], 'deleted': [], 'inserted': [14]}}
+[I 251204 20:30:34 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 3.22ms
+[I 251204 20:55:40 main:119] Listening on port: 8080
+[W 251204 20:55:40 main:121] Running in debug mode
+[I 251204 20:55:42 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.34ms
+[I 251204 20:55:42 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251204 20:55:42 web:2407] 200 GET /show-config/script (172.18.0.1) 1.63ms
+[D 251204 20:55:42 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"3a8828e2-c17c-42ee-92d1-eddd9fb0eb5b"}
+[I 251204 20:55:42 ws_controller:159] WebSocket closed from: 172.18.0.1
+[I 251204 20:55:42 web:2407] 304 GET /api/v1/settings (172.18.0.1) 20.28ms
+[I 251204 20:55:42 web:2407] 200 GET /assets/index-fa924441.js (172.18.0.1) 9.64ms
+[I 251204 20:55:42 web:2407] 304 GET /assets/index-e89cc959.css (172.18.0.1) 1.31ms
+[I 251204 20:55:42 web:2407] 200 POST /api/v1/auth/refresh-token (172.18.0.1) 3.39ms
+[D 251204 20:55:42 base_controller:121] POST /api/v1/auth/refresh-token {}
+[I 251204 20:55:42 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 2.26ms
+[I 251204 20:55:42 web:2407] 200 GET /api/v1/settings (172.18.0.1) 2.21ms
+[I 251204 20:55:42 web:2407] 304 GET /api/v1/settings (172.18.0.1) 2.76ms
+[I 251204 20:55:42 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 2.70ms
+[I 251204 20:55:42 web:2407] 304 GET /favicon.ico (172.18.0.1) 2.08ms
+[I 251204 20:55:42 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 2.34ms
+[I 251204 20:55:42 web:2407] 304 GET /api/v1/show (172.18.0.1) 5.18ms
+[I 251204 20:55:42 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 2.73ms
+[I 251204 20:55:42 web:2407] 304 GET /api/v1/show (172.18.0.1) 3.19ms
+[I 251204 20:55:42 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.88ms
+[I 251204 20:55:42 web:2407] 304 GET /api/v1/show (172.18.0.1) 3.30ms
+[I 251204 20:55:42 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.56ms
+[I 251204 20:55:42 web:2407] 200 GET /api/v1/auth (172.18.0.1) 3.31ms
+[I 251204 20:55:42 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 51.04ms
+[I 251204 20:55:42 web:2407] 200 GET /assets/ShowConfigView-c1eb7372.js (172.18.0.1) 1.00ms
+[I 251204 20:55:42 web:2407] 200 GET /assets/ConfigScript-d0de3a19.js (172.18.0.1) 0.72ms
+[I 251204 20:55:42 web:2407] 304 GET /assets/ShowConfigView-fcb631f3.css (172.18.0.1) 0.63ms
+[I 251204 20:55:42 web:2407] 200 GET /assets/ConfigScript-d5d88a09.css (172.18.0.1) 0.59ms
+[I 251204 20:55:42 web:2407] 200 GET /assets/diff-d6984497.js (172.18.0.1) 0.60ms
+[I 251204 20:55:43 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.37ms
+[I 251204 20:55:43 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251204 20:55:43 web:2407] 200 GET / (172.18.0.1) 1.60ms
+[D 251204 20:55:43 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"1128b319-52e6-494a-b963-9decfd003f1f"}
+[I 251204 20:55:43 ws_controller:159] WebSocket closed from: 172.18.0.1
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/settings (172.18.0.1) 19.68ms
+[I 251204 20:55:43 web:2407] 200 POST /api/v1/auth/refresh-token (172.18.0.1) 4.21ms
+[D 251204 20:55:43 base_controller:121] POST /api/v1/auth/refresh-token {}
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 2.11ms
+[I 251204 20:55:43 web:2407] 200 GET /api/v1/settings (172.18.0.1) 2.16ms
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/settings (172.18.0.1) 1.89ms
+[I 251204 20:55:43 web:2407] 304 GET /favicon.ico (172.18.0.1) 1.25ms
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.91ms
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.95ms
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.35ms
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.94ms
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.40ms
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.97ms
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.67ms
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/show (172.18.0.1) 3.11ms
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/auth (172.18.0.1) 2.47ms
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 48.97ms
+[I 251204 20:55:43 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.28ms
+[I 251204 20:55:43 ws_controller:72] WebSocket opened from: 172.18.0.1
+[D 251204 20:55:43 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"1128b319-52e6-494a-b963-9decfd003f1f"}
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/settings (172.18.0.1) 2.41ms
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.95ms
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 2.11ms
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/show (172.18.0.1) 4.32ms
+[I 251204 20:55:43 web:2407] 304 GET /api/v1/show (172.18.0.1) 3.46ms
+[I 251204 20:55:43 web:2407] 200 GET /.well-known/appspecific/com.chrome.devtools.json (172.18.0.1) 0.99ms
+[D 251204 20:55:44 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"AUTHENTICATE","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQ5NjgxNDMsImlhdCI6MTc2NDg4MTc0M30.PYYLt4Nn25rPqr9lweRjjp2fl28CceootM-4QEZNiik"}}
+[I 251204 20:55:44 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 2.22ms
+[I 251204 20:55:44 web:2407] 200 GET /api/v1/auth (172.18.0.1) 1.75ms
+[I 251204 20:55:44 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 48.67ms
+[I 251204 20:55:44 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 2.75ms
+[I 251204 20:55:44 web:2407] 200 GET /api/v1/show/sessions (172.18.0.1) 3.87ms
+[I 251204 20:55:45 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.24ms
+[I 251204 20:55:45 ws_controller:72] WebSocket opened from: 172.18.0.1
+[D 251204 20:55:45 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"3a8828e2-c17c-42ee-92d1-eddd9fb0eb5b"}
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/settings (172.18.0.1) 2.11ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 3.69ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 2.39ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/auth (172.18.0.1) 1.66ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.98ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show (172.18.0.1) 4.27ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 45.86ms
+[D 251204 20:55:45 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"AUTHENTICATE","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQ5NjgxNDIsImlhdCI6MTc2NDg4MTc0Mn0.puAFIFz3mITxQSp4joljVzjTASzKMLPxd9gSv96TJEw"}}
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 3.32ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.94ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.99ms
+[I 251204 20:55:45 web:2407] 200 GET /api/v1/show/script/config (172.18.0.1) 3.72ms
+[I 251204 20:55:45 web:2407] 200 GET /api/v1/auth (172.18.0.1) 2.17ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 4.06ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show/script/revisions (172.18.0.1) 3.27ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 3.17ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 2.31ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 14.45ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 17.98ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 14.71ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 3.53ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 11.92ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.66ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 3.06ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 3.31ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 4.04ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show/script?page=1 (172.18.0.1) 12.30ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show/script?page=2 (172.18.0.1) 11.02ms
+[I 251204 20:55:45 web:2407] 304 GET /api/v1/show/script?page=3 (172.18.0.1) 13.42ms
+[I 251204 20:57:11 main:119] Listening on port: 8080
+[W 251204 20:57:11 main:121] Running in debug mode
+[I 251204 20:57:11 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.32ms
+[I 251204 20:57:11 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251204 20:57:11 web:2407] 200 GET /show-config/script (172.18.0.1) 2.36ms
+[D 251204 20:57:11 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"3a8828e2-c17c-42ee-92d1-eddd9fb0eb5b"}
+[I 251204 20:57:11 ws_controller:159] WebSocket closed from: 172.18.0.1
+[I 251204 20:57:11 web:2407] 304 GET /api/v1/settings (172.18.0.1) 2.77ms
+[E 251204 20:57:11 web:1934] Uncaught exception GET /api/v1/settings (172.18.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8080', method='GET', uri='/api/v1/settings', version='HTTP/1.1', remote_ip='172.18.0.1')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.13/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/server/controllers/api/settings.py", line 15, in get
+        await self.finish(settings_json)
+    tornado.iostream.StreamClosedError: Stream is closed
+[I 251204 20:57:11 web:2407] 200 GET /.well-known/appspecific/com.chrome.devtools.json (172.18.0.1) 2.01ms
+[I 251204 20:57:11 web:2407] 304 GET /assets/index-a095bb1d.js (172.18.0.1) 6.22ms
+[I 251204 20:57:12 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.29ms
+[I 251204 20:57:12 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251204 20:57:12 web:2407] 200 POST /api/v1/auth/refresh-token (172.18.0.1) 3.28ms
+[D 251204 20:57:12 base_controller:121] POST /api/v1/auth/refresh-token {}
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 5.10ms
+[D 251204 20:57:12 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"3a8828e2-c17c-42ee-92d1-eddd9fb0eb5b"}
+[I 251204 20:57:12 web:2407] 200 GET /api/v1/settings (172.18.0.1) 2.46ms
+[I 251204 20:57:12 web:2407] 304 GET /favicon.ico (172.18.0.1) 3.69ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings (172.18.0.1) 2.60ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.77ms
+[D 251204 20:57:12 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_TOKEN","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQ5NjgyMzIsImlhdCI6MTc2NDg4MTgzMn0.DgmW5F0Wy0f4nrVrb0rePWq8s0Xzi85Xkq9_gyF5sYU"}}
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings (172.18.0.1) 20.77ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.89ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show (172.18.0.1) 3.98ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.79ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.44ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.70ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show (172.18.0.1) 3.01ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 2.81ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.60ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.67ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.28ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 1.54ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.18ms
+[I 251204 20:57:12 web:2407] 200 GET /api/v1/auth (172.18.0.1) 2.80ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/auth (172.18.0.1) 2.39ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 54.85ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 50.45ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 53.25ms
+[I 251204 20:57:12 web:2407] 200 GET /assets/ShowConfigView-efab5086.js (172.18.0.1) 0.65ms
+[I 251204 20:57:12 web:2407] 200 GET /assets/ConfigScript-350fdfb5.js (172.18.0.1) 0.94ms
+[I 251204 20:57:12 web:2407] 200 GET /assets/diff-2f659afa.js (172.18.0.1) 1.45ms
+[I 251204 20:57:12 web:2407] 200 GET /assets/ConfigScript-0e7a375e.css (172.18.0.1) 0.58ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 4.41ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 2.87ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/auth (172.18.0.1) 2.44ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 4.76ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/script/revisions (172.18.0.1) 3.29ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 4.09ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 2.49ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 12.31ms
+[I 251204 20:57:12 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.21ms
+[I 251204 20:57:12 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 20.24ms
+[I 251204 20:57:12 web:2407] 200 GET / (172.18.0.1) 23.50ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 15.99ms
+[D 251204 20:57:12 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"1128b319-52e6-494a-b963-9decfd003f1f"}
+[I 251204 20:57:12 ws_controller:159] WebSocket closed from: 172.18.0.1
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings (172.18.0.1) 19.64ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.83ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 13.88ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 3.08ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 3.52ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 4.05ms
+[I 251204 20:57:12 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.21ms
+[I 251204 20:57:12 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 5.03ms
+[I 251204 20:57:12 web:2407] 200 POST /api/v1/auth/refresh-token (172.18.0.1) 2.41ms
+[D 251204 20:57:12 base_controller:121] POST /api/v1/auth/refresh-token {}
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 1.94ms
+[D 251204 20:57:12 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"1128b319-52e6-494a-b963-9decfd003f1f"}
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/script?page=1 (172.18.0.1) 12.71ms
+[I 251204 20:57:12 web:2407] 200 GET /api/v1/settings (172.18.0.1) 14.75ms
+[I 251204 20:57:12 web:2407] 304 GET /favicon.ico (172.18.0.1) 1.01ms
+[D 251204 20:57:12 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_TOKEN","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQ5NjgyMzIsImlhdCI6MTc2NDg4MTgzMn0.DgmW5F0Wy0f4nrVrb0rePWq8s0Xzi85Xkq9_gyF5sYU"}}
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 2.13ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/script?page=2 (172.18.0.1) 11.03ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings (172.18.0.1) 13.23ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.87ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/script?page=3 (172.18.0.1) 11.21ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings (172.18.0.1) 13.40ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.49ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 4.02ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.24ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.60ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.63ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.91ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.34ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.66ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.51ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 1.66ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.10ms
+[I 251204 20:57:12 web:2407] 200 GET /api/v1/auth (172.18.0.1) 2.97ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/auth (172.18.0.1) 2.71ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 51.06ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 51.61ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 2.22ms
+[I 251204 20:57:12 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 2.54ms
+[I 251204 20:58:02 web:2407] 200 GET /show-config/script (172.18.0.1) 2.00ms
+[I 251204 20:58:02 ws_controller:159] WebSocket closed from: 172.18.0.1
+[I 251204 20:58:02 web:2407] 304 GET /.well-known/appspecific/com.chrome.devtools.json (172.18.0.1) 1.67ms
+[I 251204 20:58:02 web:2407] 200 GET /assets/index-e89cc959.css (172.18.0.1) 1.56ms
+[I 251204 20:58:02 web:2407] 200 GET /assets/index-a095bb1d.js (172.18.0.1) 7.27ms
+[I 251204 20:58:07 web:2407] 101 GET /api/v1/ws (172.18.0.1) 0.27ms
+[I 251204 20:58:07 ws_controller:72] WebSocket opened from: 172.18.0.1
+[I 251204 20:58:07 web:2407] 200 POST /api/v1/auth/refresh-token (172.18.0.1) 4.00ms
+[D 251204 20:58:07 base_controller:121] POST /api/v1/auth/refresh-token {}
+[I 251204 20:58:07 web:2407] 200 GET /api/v1/rbac/roles (172.18.0.1) 5.96ms
+[D 251204 20:58:07 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_CLIENT","DATA":"3a8828e2-c17c-42ee-92d1-eddd9fb0eb5b"}
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/settings (172.18.0.1) 2.37ms
+[I 251204 20:58:07 web:2407] 200 GET /favicon.ico (172.18.0.1) 3.74ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/settings (172.18.0.1) 2.45ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 4.20ms
+[D 251204 20:58:07 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_TOKEN","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQ5NjgyODcsImlhdCI6MTc2NDg4MTg4N30.Q8A9k_1tQGZq-ciXcI9FGCeXq0-CU60y1pWZCLjjpDg"}}
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/settings (172.18.0.1) 2.15ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 4.01ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.32ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.67ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.48ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.64ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.20ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.62ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.21ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/settings/raw (172.18.0.1) 1.83ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.35ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/rbac/roles (172.18.0.1) 28.47ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/show (172.18.0.1) 2.61ms
+[I 251204 20:58:07 web:2407] 200 GET /api/v1/auth (172.18.0.1) 1.68ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/auth (172.18.0.1) 2.52ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 49.02ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/rbac/user/roles (172.18.0.1) 49.50ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 2.27ms
+[I 251204 20:58:07 web:2407] 304 GET /assets/ShowConfigView-fcb631f3.css (172.18.0.1) 0.99ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/show/sessions (172.18.0.1) 3.78ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 3.04ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/auth (172.18.0.1) 3.05ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.82ms
+[I 251204 20:58:07 web:2407] 304 GET /api/v1/show/script/revisions (172.18.0.1) 2.67ms
+[I 251204 20:58:08 web:2407] 304 GET /api/v1/user/settings (172.18.0.1) 2.88ms
+[I 251204 20:58:08 web:2407] 304 GET /api/v1/show/script/config (172.18.0.1) 3.30ms
+[I 251204 20:58:08 web:2407] 304 GET /api/v1/show/act (172.18.0.1) 12.21ms
+[I 251204 20:58:08 web:2407] 304 GET /api/v1/show/scene (172.18.0.1) 26.11ms
+[I 251204 20:58:08 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 13.58ms
+[I 251204 20:58:08 web:2407] 304 GET /api/v1/show/character/group (172.18.0.1) 2.62ms
+[I 251204 20:58:08 web:2407] 304 GET /api/v1/show/character (172.18.0.1) 13.17ms
+[I 251204 20:58:08 web:2407] 304 GET /api/v1/show/script/stage_direction_styles (172.18.0.1) 2.76ms
+[I 251204 20:58:08 web:2407] 304 GET /api/v1/user/settings/stage_direction_overrides (172.18.0.1) 2.87ms
+[I 251204 20:58:08 web:2407] 304 GET /api/v1/show/script/cuts (172.18.0.1) 2.87ms
+[I 251204 20:58:08 web:2407] 304 GET /api/v1/show/script/max_page (172.18.0.1) 3.26ms
+[I 251204 20:58:08 web:2407] 304 GET /api/v1/show/script?page=1 (172.18.0.1) 12.83ms
+[I 251204 20:58:08 web:2407] 304 GET /api/v1/show/script?page=2 (172.18.0.1) 10.89ms
+[I 251204 20:58:08 web:2407] 304 GET /api/v1/show/script?page=3 (172.18.0.1) 11.48ms
+[I 251204 21:27:13 web:2407] 200 POST /api/v1/auth/refresh-token (172.18.0.1) 2.99ms
+[D 251204 21:27:13 base_controller:121] POST /api/v1/auth/refresh-token {}
+[D 251204 21:27:13 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_TOKEN","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQ5NzAwMzMsImlhdCI6MTc2NDg4MzYzM30.lUX-x3-FdRWdkv31UmRj9B5t7qyYRNY8OBfin8cN6X8"}}
+[I 251204 21:28:07 web:2407] 200 POST /api/v1/auth/refresh-token (172.18.0.1) 2.98ms
+[D 251204 21:28:07 base_controller:121] POST /api/v1/auth/refresh-token {}
+[D 251204 21:28:07 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_TOKEN","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQ5NzAwODcsImlhdCI6MTc2NDg4MzY4N30.SREjXVc95eWSDo-SSPfmat2t93ElH5_F3h7DAtq-5v4"}}
+[I 251204 21:33:00 web:2407] 200 GET /api/v1/show/script?page=4 (172.18.0.1) 22.36ms
+[I 251204 21:33:00 web:2407] 200 GET /api/v1/show/script?page=5 (172.18.0.1) 11.29ms
+[I 251204 21:33:00 web:2407] 200 GET /api/v1/show/script?page=6 (172.18.0.1) 12.35ms
+[I 251204 21:33:00 web:2407] 200 GET /api/v1/show/script?page=7 (172.18.0.1) 11.77ms
+[I 251204 21:33:01 web:2407] 200 GET /api/v1/show/script?page=8 (172.18.0.1) 11.85ms
+[I 251204 21:33:01 web:2407] 200 GET /api/v1/show/script?page=9 (172.18.0.1) 11.71ms
+[I 251204 21:33:01 web:2407] 200 GET /api/v1/show/script?page=10 (172.18.0.1) 11.24ms
+[I 251204 21:33:01 web:2407] 200 GET /api/v1/show/script?page=11 (172.18.0.1) 10.73ms
+[I 251204 21:33:01 web:2407] 200 GET /api/v1/show/script?page=12 (172.18.0.1) 11.14ms
+[I 251204 21:33:01 web:2407] 200 GET /api/v1/show/script?page=13 (172.18.0.1) 11.01ms
+[I 251204 21:33:02 web:2407] 200 GET /api/v1/show/script?page=14 (172.18.0.1) 10.86ms
+[I 251204 21:33:02 web:2407] 200 GET /api/v1/show/script?page=15 (172.18.0.1) 11.18ms
+[I 251204 21:33:03 web:2407] 304 GET /api/v1/show/script?page=12 (172.18.0.1) 12.06ms
+[I 251204 21:33:04 web:2407] 304 GET /api/v1/show/script?page=15 (172.18.0.1) 10.55ms
+[I 251204 21:33:04 web:2407] 200 GET /api/v1/show/script?page=16 (172.18.0.1) 11.99ms
+[I 251204 21:33:04 web:2407] 200 GET /api/v1/show/script?page=17 (172.18.0.1) 10.74ms
+[I 251204 21:33:04 web:2407] 200 GET /api/v1/show/script?page=18 (172.18.0.1) 11.57ms
+[I 251204 21:33:04 web:2407] 200 GET /api/v1/show/script?page=19 (172.18.0.1) 12.97ms
+[I 251204 21:33:05 web:2407] 200 GET /api/v1/show/script?page=20 (172.18.0.1) 11.02ms
+[I 251204 21:33:05 web:2407] 200 GET /api/v1/show/script?page=21 (172.18.0.1) 11.36ms
+[I 251204 21:33:05 web:2407] 200 GET /api/v1/show/script?page=22 (172.18.0.1) 10.67ms
+[I 251204 21:33:05 web:2407] 200 GET /api/v1/show/script?page=23 (172.18.0.1) 11.99ms
+[I 251204 21:33:05 web:2407] 200 GET /api/v1/show/script?page=24 (172.18.0.1) 11.09ms
+[I 251204 21:33:05 web:2407] 200 GET /api/v1/show/script?page=25 (172.18.0.1) 11.51ms
+[I 251204 21:33:05 web:2407] 200 GET /api/v1/show/script?page=26 (172.18.0.1) 12.45ms
+[I 251204 21:33:05 web:2407] 200 GET /api/v1/show/script?page=27 (172.18.0.1) 11.43ms
+[I 251204 21:33:05 web:2407] 200 GET /api/v1/show/script?page=28 (172.18.0.1) 10.87ms
+[I 251204 21:33:06 web:2407] 200 GET /api/v1/show/script?page=29 (172.18.0.1) 12.18ms
+[I 251204 21:33:06 web:2407] 200 GET /api/v1/show/script?page=30 (172.18.0.1) 11.66ms
+[I 251204 21:33:06 web:2407] 200 GET /api/v1/show/script?page=31 (172.18.0.1) 11.33ms
+[I 251204 21:33:06 web:2407] 200 GET /api/v1/show/script?page=32 (172.18.0.1) 11.24ms
+[I 251204 21:33:06 web:2407] 200 GET /api/v1/show/script?page=33 (172.18.0.1) 11.98ms
+[I 251204 21:33:06 web:2407] 200 GET /api/v1/show/script?page=34 (172.18.0.1) 11.40ms
+[I 251204 21:33:06 web:2407] 200 GET /api/v1/show/script?page=35 (172.18.0.1) 11.21ms
+[I 251204 21:33:07 web:2407] 200 GET /api/v1/show/script?page=36 (172.18.0.1) 11.46ms
+[I 251204 21:33:07 web:2407] 200 GET /api/v1/show/script?page=37 (172.18.0.1) 11.09ms
+[I 251204 21:33:07 web:2407] 200 GET /api/v1/show/script?page=38 (172.18.0.1) 11.37ms
+[I 251204 21:33:07 web:2407] 200 GET /api/v1/show/script?page=39 (172.18.0.1) 11.56ms
+[I 251204 21:33:08 web:2407] 200 GET /api/v1/show/script?page=40 (172.18.0.1) 11.32ms
+[I 251204 21:33:08 web:2407] 200 GET /api/v1/show/script?page=41 (172.18.0.1) 12.13ms
+[I 251204 21:33:09 web:2407] 200 GET /api/v1/show/script?page=42 (172.18.0.1) 12.69ms
+[I 251204 21:33:09 web:2407] 200 GET /api/v1/show/script?page=43 (172.18.0.1) 13.00ms
+[I 251204 21:33:09 web:2407] 200 GET /api/v1/show/script?page=44 (172.18.0.1) 11.72ms
+[I 251204 21:33:10 web:2407] 200 GET /api/v1/show/script?page=45 (172.18.0.1) 15.64ms
+[I 251204 21:33:11 web:2407] 200 GET /api/v1/show/script?page=46 (172.18.0.1) 3.90ms
+[I 251204 21:33:11 web:2407] 200 GET /api/v1/show/script?page=47 (172.18.0.1) 4.98ms
+[I 251204 21:33:12 web:2407] 304 GET /api/v1/show/script?page=44 (172.18.0.1) 11.10ms
+[I 251204 21:33:12 web:2407] 304 GET /api/v1/show/script?page=43 (172.18.0.1) 11.44ms
+[I 251204 21:33:12 web:2407] 304 GET /api/v1/show/script?page=42 (172.18.0.1) 10.77ms
+[I 251204 21:33:13 web:2407] 304 GET /api/v1/show/script?page=41 (172.18.0.1) 10.85ms
+[I 251204 21:33:13 web:2407] 304 GET /api/v1/show/script?page=40 (172.18.0.1) 12.07ms
+[I 251204 21:33:13 web:2407] 304 GET /api/v1/show/script?page=39 (172.18.0.1) 11.01ms
+[I 251204 21:33:13 web:2407] 304 GET /api/v1/show/script?page=38 (172.18.0.1) 13.17ms
+[I 251204 21:33:14 web:2407] 304 GET /api/v1/show/script?page=37 (172.18.0.1) 11.16ms
+[I 251204 21:33:16 web:2407] 304 GET /api/v1/show/script?page=36 (172.18.0.1) 11.65ms
+[I 251204 21:33:16 web:2407] 304 GET /api/v1/show/script?page=35 (172.18.0.1) 11.80ms
+[I 251204 21:33:16 web:2407] 304 GET /api/v1/show/script?page=34 (172.18.0.1) 10.90ms
+[I 251204 21:33:16 web:2407] 304 GET /api/v1/show/script?page=33 (172.18.0.1) 11.51ms
+[I 251204 21:33:17 web:2407] 304 GET /api/v1/show/script?page=32 (172.18.0.1) 11.17ms
+[I 251204 21:33:19 web:2407] 304 GET /api/v1/show/script?page=31 (172.18.0.1) 10.85ms
+[I 251204 21:33:20 web:2407] 304 GET /api/v1/show/script?page=30 (172.18.0.1) 12.14ms
+[I 251204 21:57:13 web:2407] 200 POST /api/v1/auth/refresh-token (172.18.0.1) 4.33ms
+[D 251204 21:57:13 base_controller:121] POST /api/v1/auth/refresh-token {}
+[D 251204 21:57:13 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_TOKEN","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQ5NzE4MzMsImlhdCI6MTc2NDg4NTQzM30.qzAB2IjwKmX-3i-3lpJx9RMXA-14cLfUrQWd_1Sr1Cs"}}
+[I 251204 21:58:07 web:2407] 200 POST /api/v1/auth/refresh-token (172.18.0.1) 2.58ms
+[D 251204 21:58:07 base_controller:121] POST /api/v1/auth/refresh-token {}
+[D 251204 21:58:07 ws_controller:201] WebSocket received data from 172.18.0.1: {"OP":"REFRESH_TOKEN","DATA":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NjQ5NzE4ODcsImlhdCI6MTc2NDg4NTQ4N30.L_Hr4SajY-Wwnn6ivItgbJhCTNNZ3W6r-g6N0BS_teY"}}
