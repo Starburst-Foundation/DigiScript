@@ -270,7 +270,7 @@ export default {
     needsActSceneLabel() {
       let { previousLine } = this;
       let lineIndex = this.previousLineIndex;
-      while (previousLine != null && || this.isWholeLineCut(previousLine)) {
+      while (previousLine != null && this.isWholeLineCut(previousLine)) {
         [lineIndex, previousLine] = this.getPreviousLineForIndex(previousLine.page, lineIndex);
       }
       if (previousLine == null) {
