@@ -392,8 +392,7 @@ export default {
       return [null, null];
     },
     isWholeLineCut(line) {
-      return line.line_parts.every((linePart) => (this.SCRIPT_CUTS.includes(linePart.id)
-          || linePart.line_text == null || linePart.line_text.trim().length === 0), this);
+      return line.line_parts.every((linePart) => (this.SCRIPT_CUTS.includes(linePart.id)), this);
     },
     isCueLine(part) {
       const character = this.characters.find((char) => (char.id === part.character_id));
